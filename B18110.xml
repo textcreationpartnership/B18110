@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Brief character of Ireland with some observations of the customs &amp;c. of the meaner sort of the natural inhabitants of that kingdom.</title>
+         </titleStmt>
+         <extent>Approx. 104KB of XML-encoded text transcribed from 54 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B18110</idno><idno type="EEBO-CITATION">9498737</idno>
+  <idno type="VID">204437</idno>
+  <idno type="EEBO-PROQUEST">2264189903</idno>
+  
+            <idno type="STC">Wing B4550</idno>
+            <idno type="OCLC">09498737</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. B18110)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 204437)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1325:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Brief character of Ireland with some observations of the customs &amp;c. of the meaner sort of the natural inhabitants of that kingdom.</title>
+               </titleStmt>
+               <extent>[2], 103 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for W.C. and are to be sold by R. Taylor,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="geographic_name">Ireland --  Anecdotes.</term>
+               <term type="geographic_name">Ireland --  History --  Anecdotes.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-03 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-05 </date>
+            <label>Anne Simpson </label>Sampled and proofread </change>
+         <change>
+            <date>2014-05 </date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:204437:1"/>
+            <p>A BRIEF CHARACTER OF <hi>Ireland,</hi> With some Observations of the <hi>CƲSTOMS,</hi> &amp;c. of the meaner sort of the Na<g ref="char:EOLhyphen"/>tural Inhabitants of that <hi>KINGDOM.</hi>
+            </p>
+            <q>—Non seria Semper.</q>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="license">
+                        <p>
+                           <hi>Licensed,</hi> Nov. 16. 1691.</p>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>W. C.</hi> and are to be Sold by <hi>R. Taylor,</hi> 1692.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:204437:2"/>
+            <pb facs="tcp:204437:2"/>
+            <opener>
+               <salute>Courteous Reader,</salute>
+            </opener>
+            <p>THis slight <hi>Schitz</hi> of a Neighbouring <hi>Nation</hi> here presented to View, may to Strangers appear like a <hi>Piece</hi> of meer <hi>Grotescoe,</hi> an extravagant mixture of <hi>Reality</hi> and <hi>Fiction,</hi> or <hi>Truth</hi> and <hi>Fa<g ref="char:EOLhyphen"/>ble:</hi> But such as have <hi>resided</hi> amongst, and <hi>conversed</hi> with them, do allow it bears so near <hi>resemblance</hi> with the <hi>Original,</hi> that they have acknowledg'd it to be exact in all its <hi>Features</hi> and <hi>Symmetry.</hi> I might, in<g ref="char:EOLhyphen"/>deed, have bestowed my Pains on a much <hi>Nobler</hi> Subject, but the <hi>Figures</hi> and <hi>Postures</hi> of <hi>Owls,</hi> or <hi>Apes</hi> may sometimes
+<pb facs="tcp:204437:3"/> be as diverting to the Eye, if Naturally represented, as the more stately <hi>Objects.</hi> That I have not done this out of any private <hi>Pique</hi> must be granted, since 'tis known this <hi>Task</hi> was <hi>commanded:</hi> And if I can by any be convinc'd that I have in the least particular injur'd them, I shall be ready at any time to confess my Error, and give them a Satisfaction as Publick, as the Mistake and Sin hereby com<g ref="char:EOLhyphen"/>mitted. <hi>Adieu.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:204437:3"/>
+            <head>A Brief CHARACTER OF <hi>IRELAND.</hi> OR, Some Observations on that Country, and its meaner Inhabitants, the <hi>Teagues.</hi>
+            </head>
+            <p>
+               <hi>IRELAND</hi> (at present the <hi>Land of Ire,</hi> or Heavens Wrath) hath little in it, now, of <hi>God's Blessing,</hi> and never had very much of the <hi>warm Sun.</hi> It seems in the opinion of some, to be part of the <hi>refuse</hi> of the <hi>Globe</hi> of the <hi>Earth</hi> at the <hi>Creation,</hi> and that when the rest of <hi>Europe</hi> was compleated and po<g ref="char:EOLhyphen"/>lished,
+<pb n="2" facs="tcp:204437:4"/> some of the <hi>scrapings</hi> and <hi>rubbish</hi> was cast out at this <hi>back<g ref="char:EOLhyphen"/>door,</hi> which being half dried by the squinting beams of <hi>Sol,</hi> was in some measure <hi>dough-baked,</hi> into an <hi>Island</hi> of what worth and quality shall be hereafter described.</p>
+            <p>If <hi>Europe</hi> be compared to a piece of fine <hi>Cloath,</hi> this must needs be some of the <hi>List,</hi> or fagg end: If to a stately <hi>Palace,</hi> this is the Postern: If to a humane Figure, where-ever we place the <hi>Head,</hi> this will surely hold more proportion and simili<g ref="char:EOLhyphen"/>tude with the <hi>Tail,</hi> as will appear upon farther Consideration.</p>
+            <p>Some formerly have thought fit to call it the<note n="*" place="margin">See the Land Voyage at the End.</note>
+               <hi>Wa<g ref="char:EOLhyphen"/>tering-Pot</hi> of the <hi>Pla<g ref="char:EOLhyphen"/>nets,</hi> and the French have named it, <hi>Le Pott de Chambre du Diable,</hi> i. e. <hi>the Devil's Piss-pot,</hi> seldom dry, but often running over, the Rains fal<g ref="char:EOLhyphen"/>ling down so frequently, as if the Heavens were a wounded <hi>Eye</hi> per<g ref="char:EOLhyphen"/>petually
+<pb n="3" facs="tcp:204437:4"/> weeping over it, or the Clouds dropping Spunges,
+<q>
+                  <l>It pours so fast and oft, 'tis too well known,</l>
+                  <l>The Clouds are there not troubled with the Stone.</l>
+               </q>
+            </p>
+            <p>And then for the often Gusts of Wind, it may well be reck'ned as <hi>Nature's Bellows,</hi> but for this, they may perhaps have reason to thank the <hi>Bantamites,</hi> who sowing so much <hi>Pepper</hi> yearly in the <hi>East-Indies</hi> in the Bowels of our Grand<g ref="char:EOLhyphen"/>mother <hi>Earth,</hi> it must needs cause her to break Wind backwards in these <hi>Western</hi> Parts, where she eases her self of the <hi>Collick:</hi> what ad<g ref="char:EOLhyphen"/>vantage they reap by it I know not, but the old Proverb says, <hi>It's an ill Wind blows no Good.</hi>
+            </p>
+            <p>Says one, It is a Frippery for Bankrupts or the Grand Hospital for such as are troubled with a Con<g ref="char:EOLhyphen"/>sumption in their Estate and Credit.
+<pb n="4" facs="tcp:204437:5"/> But whatever it were formerly, there is small hopes now that Stran<g ref="char:EOLhyphen"/>gers should be there cured of such desperate Diseases, since the whole Country may well pass for a Map of general Misery and Poverty, the Natives and Inhabitants being most of them the lively Portraitures of the Prodigal Lad in his most Swi<g ref="char:EOLhyphen"/>nish Condition; so that it were no less difficult now to get into an Estate there (unless by the Con<g ref="char:EOLhyphen"/>quering Sword) than to get out of one of their deepest Bogs, when one is sinking, and can neither help ones self out; nor persuade <hi>Teague</hi> to assist, unless St. <hi>Patrick</hi> does prompt him in a most special man<g ref="char:EOLhyphen"/>ner.</p>
+            <p>Yet is the Soil in many Parts fat, and liking (as Dunghils are) and were it well husbanded, would yield a plentiful Encrease; but what thorow Laziness, and want of In<g ref="char:EOLhyphen"/>dustry, (I speak of the meer Irish, to whom the whole Character re<g ref="char:EOLhyphen"/>lates)
+<pb n="5" facs="tcp:204437:5"/> and their innate Pride, and Self-conceitedness, which makes them disdain to be taught by Foreigners, they do so little Improve their Lands, that unless it be themselves, nothing to an Ingenious Eye can be a sadder Spectacle.</p>
+            <p>Inclosures are very rare amongst them, and those no better fenced than an Old Midwife's toothless Gums, or those Parts of <hi>Northamp<g ref="char:EOLhyphen"/>tonshire,</hi> where the Hedges were grubbed up by the rebellious Rout of the Commoners.</p>
+            <p>Much of their Land is reserved for Grazing and Pasturage; and there, indeed, the Grass being ve<g ref="char:EOLhyphen"/>ry sweet, and holding a constant <hi>verdure,</hi> it is in many places so in<g ref="char:EOLhyphen"/>dented with <hi>Purling Brooks</hi> and <hi>Streams,</hi> that their Meadows look like a new Green Carpet border'd or <hi>fringed</hi> with the purest <hi>Silver:</hi> yet <hi>Hay</hi> is a Rarity amongst them, and would cost them more pains than they can well afford, towards
+<pb n="6" facs="tcp:204437:6"/> the making of it, therefore they seldom or never trouble their <hi>heads</hi> or <hi>hands</hi> about it. And then for their <hi>Arrable</hi> Ground, it lies most commonly as much neglected and unmanured as the sandy <hi>Desarts</hi> of <hi>Arabia,</hi> or a ranting Young <hi>Gal<g ref="char:EOLhyphen"/>lant's</hi> Old Bed-rid <hi>Spouse.</hi> And, not to particularize every Circum<g ref="char:EOLhyphen"/>stance, their National Custom of <hi>Ploughing,</hi> by tying their wooden Harness to the <hi>Horses-Tail,</hi> and that other senseless Improvidence of <hi>burn<g ref="char:EOLhyphen"/>ing</hi> their <hi>Oats</hi> to save the Labour of <hi>Thrashing,</hi> are two such very remarkable Proofs of their <hi>Husban<g ref="char:EOLhyphen"/>dry,</hi> that it would be needless to describe it further: So that what<g ref="char:EOLhyphen"/>ever the <hi>Country</hi> be, they are a <hi>wild Herd of brute Animals</hi> inha<g ref="char:EOLhyphen"/>biting, but not improving, it.</p>
+            <p>This <hi>Sloath</hi> and carelessness is judged to be one reason why all sorts of <hi>Grain</hi> and <hi>Fruits</hi> are of a less and more degenerate <hi>growth,</hi> than in other well <hi>Cultivated</hi> and
+<pb n="7" facs="tcp:204437:6"/>
+               <hi>Improved</hi> Countries (which is also noted in most of their <hi>Vegetables</hi> and <hi>Animals, Women</hi> and <hi>Grey<g ref="char:EOLhyphen"/>hounds</hi> only excepted) the Corn seldom shoots up to that aspiring height upon its Spindle, as may be seen elsewhere, nor does it attain so full and weighty an Ear as to make it bend down to kiss its <hi>Mo<g ref="char:EOLhyphen"/>thers bosom;</hi> but grows so dwarfish, thin, and full of Weeds, that it re<g ref="char:EOLhyphen"/>sembles the <hi>Field</hi> in the <hi>Parable,</hi> which the <hi>Evil</hi> One sowed with <hi>Tares.</hi>
+            </p>
+            <p>To which may be coupled the <hi>Houswifery of the Women,</hi> and it were pity to part their good qua<g ref="char:EOLhyphen"/>lities, whose <hi>nastiness</hi> cannot better be described, than by directly op<g ref="char:EOLhyphen"/>posing them against the <hi>Dutch,</hi> as the other extream; these being no less excessive in their exquisite <hi>Slut<g ref="char:EOLhyphen"/>tery,</hi> than the other in their over<g ref="char:EOLhyphen"/>nice <hi>cleanliness:</hi> and though both have a too fond opinion of their ways, yet, if I mistake not, these
+<pb n="8" facs="tcp:204437:7"/>
+               <hi>Kernes</hi> have a much better conceit of their <hi>Sordidness,</hi> than the other of their over-nice <hi>Curiosity,</hi> which though perhaps is a fault in both, may be more excusable in the <hi>Dutch</hi> (as one says in the like case) the <hi>Hollander</hi> being indeed Proud of a <hi>Mole-hill;</hi> but the <hi>Teague</hi> of a <hi>Dunghill,</hi> the place whereon most commonly the rank Weeds of <hi>Pride</hi> and <hi>Arrogance</hi> are aptest to grow. And how ill these two agree, <hi>Pride</hi> and <hi>Poverty,</hi> the <hi>Proverb</hi> will tell them. In this me-thinks they may be fitly compared to their own high <hi>Mountains,</hi> which have their <hi>Heads</hi> raised above the <hi>Clouds,</hi> and seem to wear the <hi>Stars</hi> for a <hi>Coro<g ref="char:EOLhyphen"/>net;</hi> but yet are, indeed, no better <hi>dighted,</hi> than with a <hi>dirty Bog</hi> on the <hi>top,</hi> more <hi>deep</hi> and dangerous than the lowest Road in the <hi>Val<g ref="char:EOLhyphen"/>leys.</hi>
+            </p>
+            <p>Says one, <q rend="margQuotes">I never yet found <hi>Pride</hi> in a Noble Nature, nor <hi>Humility</hi> in an unworthy Mind:
+<pb n="9" facs="tcp:204437:7"/> it may seem strange to an incon<g ref="char:EOLhyphen"/>siderate Eye, that such a poor <hi>Violet Vertue</hi> should ever dwell with <hi>Honour,</hi> and such an Aspi<g ref="char:EOLhyphen"/>ring fume as <hi>Pride</hi> should gene<g ref="char:EOLhyphen"/>rally sojourn with <hi>baseness:</hi>
+               </q> Whe<g ref="char:EOLhyphen"/>ther it be not so amongst the meaner Irish, I leave knowing Per<g ref="char:EOLhyphen"/>sons to judge. And sure I am, this <hi>Pride</hi> is their greatest <hi>Enemy;</hi> it makes them <hi>unsociable</hi> with the <hi>English,</hi> their mistaken and ambi<g ref="char:EOLhyphen"/>tious thoughts setting their <hi>worth</hi> above <hi>themselves,</hi> and all others beneath them; makes them de<g ref="char:EOLhyphen"/>spise their <hi>Amity</hi> and <hi>Ingenuity,</hi> Dis<g ref="char:EOLhyphen"/>dain being writ upon their <hi>Brow,</hi> where one may <hi>read, I am too good for thee:</hi> This makes them <hi>idle</hi> in their <hi>Occupations, careless</hi> to <hi>improve</hi> their <hi>Knowledge,</hi> and if some of them are Born to good Parts by <hi>Nature,</hi> they rarely add any thing by <hi>Industry:</hi> This makes them hug their old <hi>Ethnick</hi> Customs, not because they are <hi>good,</hi> but because
+<pb n="10" facs="tcp:204437:8"/> their <hi>Ancestors</hi> formerly <hi>used</hi> them, and themselves have since <hi>practised</hi> them: In fine, this makes them chuse rather to <hi>want</hi> than to <hi>work,</hi> rather to <hi>steal</hi> than to <hi>want,</hi> and so rather run the hazard of the greatest Severity of the <hi>Law</hi> for such Offences, than to <hi>earn their Bread by honest Labour,</hi> and gain a <hi>livelihood</hi> with the <hi>sweat of their Brows.</hi>
+            </p>
+            <p>Their <hi>Dwellings</hi> or <hi>Cabans,</hi> I should more exactly describe, if I durst have adventured oftner into them; or could have staid long enough to have Survey'd them at my being there; which I did once <hi>assay,</hi> but found it as hazardous al<g ref="char:EOLhyphen"/>most, as <hi>Orpheus</hi> his descent into <hi>Hell,</hi> where there might be indeed a greater <hi>Fire,</hi> but not more <hi>Smoak,</hi> which thick <hi>Cloud</hi> in the midst of the Room did so <hi>blind me,</hi> and <hi>conceal</hi> the <hi>House,</hi> that I could scarce remember any thing, but my sore <hi>Eyes,</hi> when I came out <hi>again:</hi>
+               <pb n="11" facs="tcp:204437:8"/> Should they be as much troubled with that other <hi>noisom Disease</hi> of <hi>Scolding Wives,</hi> as they are with <hi>Smoaky Houses,</hi> they might well upon each <hi>Door</hi> write, <hi>Lord have Mercy upon us,</hi> for certainly there cannot be a greater <hi>Plague.</hi>
+            </p>
+            <p>As for the outward <hi>Structure,</hi> an <hi>English Cow-house</hi> hath more <hi>Archi<g ref="char:EOLhyphen"/>tecture</hi> far; nay, my <hi>Lord Mayor's Dog-kennel</hi> is a <hi>Palace</hi> compared to them: and for <hi>sweetness,</hi> I have heard many affirm, that the foulest Corner about the <hi>Bear-garden</hi> is <hi>Musk</hi> and <hi>Amber</hi> to their <hi>sweetest Rooms.</hi>
+            </p>
+            <p>The <hi>Walls</hi> are made of meer <hi>Mud,</hi> mixed with a little wet <hi>Straw,</hi> the Covering is <hi>Thatch;</hi> the Floor <hi>Earth;</hi> which, by reason of the constant Rains, is generally so damp, that they may be said to live over a <hi>Bog;</hi> and the <hi>Thatch</hi> so ill thrashed, that (by the sprouting of the left <hi>Corn,</hi> which often springs up green) it may be added, they live under a
+<pb n="12" facs="tcp:204437:9"/>
+               <hi>Meadow;</hi> or (as a Person of Ho<g ref="char:EOLhyphen"/>nour said of the like place, to which he most aptly compared the <hi>Long, long, long Parliament</hi>) they have green <hi>Ears</hi> over their <hi>Heads,</hi> and a false <hi>Ground</hi> under their <hi>Feet.</hi>
+            </p>
+            <p>The <hi>Beds</hi> are upon such a firm Foundation, that nothing but an <hi>Earthquake</hi> can move them; In<g ref="char:EOLhyphen"/>stead of <hi>Feathers</hi> or <hi>Flocks,</hi> they use <hi>Rushes</hi> or <hi>Straw,</hi> which serves them without changing, till cast <hi>Horse-litter</hi> is a fragrant <hi>Nosegay</hi> to it, and <hi>Jacob</hi>'s sweet Lodging on the <hi>fresh Grass,</hi> compared to it, is like the <hi>Pleasure</hi> of the <hi>Marriage-Bed.</hi>
+            </p>
+            <p>
+               <hi>Sheets</hi> they never provide, and to tell the <hi>naked Truth,</hi> unless they can purchase a poor <hi>Cadow,</hi> which is not often, they <hi>ligg</hi> together like <hi>Adam</hi> and <hi>Eve</hi> before the <hi>Fall,</hi> not a <hi>Rag</hi> to cover them, but themselves: which may be one reason why they so multiply; for
+<pb n="13" facs="tcp:204437:9"/> being necessitated to keep together for warmth, they ingender as thick as <hi>Fly-blows,</hi> each little <hi>Hutt</hi> being as full of <hi>Children,</hi> as a <hi>Conney-Burrough</hi> in a well stock'd <hi>Warren</hi> is of Rabbits.</p>
+            <p>They seldom have any <hi>Parti<g ref="char:EOLhyphen"/>tions</hi> or several Rooms, but sleep in common with their <hi>Swine</hi> and <hi>Poultrey:</hi> and for second or third <hi>Story</hi> you may look long enough e're you find any. <hi>Windows</hi> would discover their <hi>Poverty</hi> and <hi>Sluttery</hi> too much, and a <hi>Chimney</hi> is rec<g ref="char:EOLhyphen"/>koned as <hi>superfluous</hi> as a <hi>Steeple</hi> at a new fangled <hi>Conventicle:</hi> The <hi>Door</hi> which perhaps is as irregular and multiform as a new made <hi>breach</hi> in a <hi>Wall,</hi> serving both to let in the <hi>Light,</hi> and let out the <hi>Smoak;</hi> so that you may guess their abodes are pleasant and airy as a <hi>Dungeon,</hi> and unless they be compared to one another, each of them may very properly be called <hi>None-such.</hi>
+            </p>
+            <pb n="14" facs="tcp:204437:10"/>
+            <p>Their <hi>Women</hi> generally are very little beholding to Nature for their <hi>Beauty,</hi> and less to <hi>Art:</hi> one may safely Swear they use no Painting, or such like <hi>auxiliary</hi> aids of <hi>Fu<g ref="char:EOLhyphen"/>cusses,</hi> being so averse to that kind of Curiosity, (tho' they have as much need thereof as any I ever yet beheld) that one would think they never had their faces <hi>wash</hi>'d but at their <hi>Baptism.</hi> To whom the per<g ref="char:EOLhyphen"/>petual <hi>Smoak</hi> within Doors, and want of a <hi>Bon-grace</hi> without, does add such a tincture of Complexion, that a Ploughman's Sun-burnt <hi>hand,</hi> or a Seaman's weather-beaten <hi>face,</hi> is <hi>Snow</hi> and <hi>Cream</hi> to it: So that one need not fear much tempta<g ref="char:EOLhyphen"/>tion, they being, indeed, meer <hi>Scarr-Crows,</hi> and their <hi>Phisiogno<g ref="char:EOLhyphen"/>mies</hi> such a defence, such a spell for their <hi>Plackets,</hi> such a refrige<g ref="char:EOLhyphen"/>ratory 'gainst the flames of <hi>Lust,</hi> that in the <hi>Day-light</hi> they are se<g ref="char:EOLhyphen"/>cure from any violent attempt upon their <hi>Chastity,</hi> though in the <hi>Night</hi>
+               <pb n="15" facs="tcp:204437:10"/> they may pass <hi>Muster,</hi> and the push of <hi>Pike,</hi> when <hi>Joan</hi> is as good as my <hi>Lady.</hi>
+            </p>
+            <q>
+               <l>Nonsence, <hi>their</hi> Converse; <hi>kindness,</hi> Treachery;</l>
+               <l>Red <hi>hair,</hi> and Louziness, <hi>their</hi> Letchery.</l>
+            </q>
+            <p>Their <hi>Bodies</hi> are of a tollerable proportion, and to be born withal, but then are they mounted on such mishapen <hi>Trussels</hi> or <hi>Supporters,</hi> that whenever any Man desires to try the Pleasure of their <hi>Embraces,</hi> he will be sure (as a witty Gentleman obser<g ref="char:EOLhyphen"/>ved) to lay their <hi>Legs aside.</hi> Their <hi>Breasts</hi> are excepted against by some, for being of the same size with their <hi>Buttocks:</hi> and their <hi>Hands</hi> are so tann'd leather'd, that <hi>Gloves</hi> were but thrown away upon them.</p>
+            <p>
+               <hi>Amorous</hi> they are as <hi>Doves,</hi> but not altogether so chast as <hi>Turtles,</hi> desiring as much to be <hi>billing,</hi> and very frequently bringing forth
+<pb n="16" facs="tcp:204437:11"/>
+               <hi>Twins,</hi> as the others hatch young ones by <hi>Pairs.</hi> There needs no great Ceremony or <hi>Courtship,</hi> for if they yield not at first <hi>Summons</hi> up<g ref="char:EOLhyphen"/>on <hi>Composition,</hi> a slight <hi>attack</hi> wins the <hi>Fortress,</hi> and one may soon <hi>enter.</hi> These old <hi>Texts</hi> being <hi>Or<g ref="char:EOLhyphen"/>thodox</hi> amongst them, <hi>Touch and take, Laugh and lye down, Up and ride,</hi> and so to the end of the <hi>Chapter.</hi>
+            </p>
+            <p>It is affirmed by some, that of late, they did begin to drive this Trade for <hi>Profit,</hi> as well as <hi>Pleasure,</hi> and were grown so <hi>wary</hi> in their Bargains, that (like their own Coun<g ref="char:EOLhyphen"/>try <hi>Kine</hi>) they would not give down one drop of their <hi>Kindness</hi> till they saw their <hi>Golden Calf</hi> with<g ref="char:EOLhyphen"/>in their reach. But on a design of <hi>Marriage</hi> they are less <hi>scrupulous</hi> or cautious, and so far from selling a <hi>Pig</hi> in a <hi>Poke,</hi> that it is not un<g ref="char:EOLhyphen"/>usual for the <hi>Man</hi> to mount the <hi>Beast,</hi> before he <hi>binds</hi> the <hi>Bargain;</hi> so that 'tis no strange thing amongst
+<pb n="17" facs="tcp:204437:11"/> them, to make a <hi>Maid</hi> a <hi>Whore first,</hi> and then to make that <hi>Whore</hi> his <hi>Wife</hi> afterwards; like a <hi>Sloven</hi> that first makes a <hi>Close-stool</hi> of his own <hi>Hat,</hi> and then claps it upon his own <hi>Head.</hi> Thus rather than want <hi>Horns,</hi> they will have some of their own <hi>graffing,</hi> antidating themselves <hi>Cuckolds;</hi> and having taught their <hi>Wives</hi> this Lesson so <hi>early,</hi> who can wonder if they pra<g ref="char:EOLhyphen"/>ctise it afterwards, a <hi>new Cask</hi> still retains a touch of its first <hi>Seasoning,</hi> and when once such young <hi>Colts</hi> find the <hi>Gap</hi> of <hi>Liberty</hi> set open, they will <hi>frisk</hi> out of the Bounds of all <hi>Modesty,</hi> and never leave running till they have brought their Husbands to <hi>Cockolds-Point.</hi>
+            </p>
+            <p>The <hi>Men,</hi> as <hi>Birds</hi> of the same <hi>Nest</hi> and <hi>Feather,</hi> differ only in the <hi>Sex,</hi> not in their good <hi>Humour</hi> and <hi>Conditions.</hi> Withall, they are held to be in some measure more <hi>Crafty</hi> than might be expected; but not <hi>Prudent,</hi> nor <hi>Honest; Credulous</hi> and
+<pb n="18" facs="tcp:204437:12"/>
+               <hi>light of belief, treacherous, sharking,</hi> and <hi>great List'ners after News,</hi> which may be imputed to their long unsettled <hi>Government,</hi> fearing always some <hi>Innovation,</hi> and emi<g ref="char:EOLhyphen"/>nent Change and Danger.</p>
+            <p>Notorious <hi>Thieves</hi> they are, and very Skilful at <hi>Leger-de-main,</hi> for which Trade both <hi>Nature</hi> and <hi>For<g ref="char:EOLhyphen"/>tune</hi> seem to have fitted them; For as they are miserably <hi>Poor,</hi> so they are more Impudent than a <hi>Court-Page,</hi> or an Italian <hi>Curtezan,</hi> and have made it a common Practice to enter into any House without the <hi>Civility</hi> of craving leave, or knocking at the <hi>Door;</hi> and being once in, they have no creaking <hi>Shoes</hi> to betray them, but either they wear <hi>Broags,</hi> a kind of thin <hi>Pumps,</hi> or else make so bold with <hi>Nature</hi> as to use their <hi>bare feet:</hi> If they spy any portable <hi>Prize,</hi> their Hands are like <hi>Lime-twigs,</hi> and the <hi>Prey</hi> shall hardly escape them; nor are they ever unprovi<g ref="char:EOLhyphen"/>ded
+<pb n="19" facs="tcp:204437:12"/> of a <hi>Cloak</hi> or <hi>Mantle</hi> (large as a <hi>Jesuite's Conscience</hi>) to spread over their <hi>Knavery;</hi> And lastly, for Agility and <hi>swiftness</hi> of retreat, they may compare with <hi>Mercury</hi> himself, being ever in a running Posture, and always setting the best <hi>foot</hi> foremost.</p>
+            <p>Surely, of all People they are the least troubled with <hi>Corns</hi> upon their <hi>Toes,</hi> they walk so soundly; but amongst a thousand of their <hi>Hands,</hi> I do not think one Finger could be pickt out that were not tainted with an <hi>Itch</hi> after unlawful <hi>Gain,</hi> or infected with a <hi>Felon:</hi> for so much sweetness do they fancy in the relish of <hi>Stolen-Goods,</hi> that they have little <hi>gusto</hi> for any o<g ref="char:EOLhyphen"/>ther.</p>
+            <p>It is an usual Saying, That <hi>a good Face needs no Band, and a bad one deserves none;</hi> which may be a reason why these are so ill <hi>accou<g ref="char:EOLhyphen"/>tred</hi> and negligent in their <hi>Appa<g ref="char:EOLhyphen"/>rel;</hi> tho' if the extreme Poverty of
+<pb n="20" facs="tcp:204437:13"/> the generality be consider'd (which yet proceeds from their own sloath, their Condition being much like <hi>Job</hi>'s upon the <hi>Dunghil</hi>) we shall find more cause to <hi>pity,</hi> than won<g ref="char:EOLhyphen"/>der at them. Once a Year, per<g ref="char:EOLhyphen"/>haps, their <hi>Stock</hi> may swell to the purchase of a <hi>frieze</hi> Garment of a <hi>brace of Two-pences the bandle;</hi> higher it can hardly reach, what<g ref="char:EOLhyphen"/>ever their Ambition prompt them to: a <hi>coarse</hi> out-side, indeed, yet most think it suteable enough to the <hi>lining</hi> within, for a <hi>Loam Wall</hi> deserves but a mean <hi>Hanging.</hi>
+            </p>
+            <p>The <hi>Females</hi> have a Head At<g ref="char:EOLhyphen"/>tire which they call <hi>Kerchers:</hi> a<g ref="char:EOLhyphen"/>mongst the better Sort it is made of <hi>Linnen,</hi> but seldom so white as a Dutch-man's <hi>Sail:</hi> whilst the common <hi>Trulls</hi> cannot possibly be any thing, but an old <hi>Rag</hi> turned out of other Service, or the flappet of a Month worn <hi>Smock</hi> reprieved from the <hi>Wash-bowl;</hi> and yet, as one said of the like <hi>Sluttery,</hi> the
+<pb n="21" facs="tcp:204437:13"/> poor remnant looks as <hi>briskly</hi> as if it were promised for the next whole quarter to scape many a <hi>scowring.</hi>
+            </p>
+            <p>
+               <hi>Flesh-bags</hi> they may, some of them, have for the <hi>Day,</hi> but at <hi>Night</hi> they ever <hi>uncase</hi> themselves and <hi>ligg</hi> in the <hi>woollen,</hi> if their <hi>Wits</hi> can <hi>gather</hi> enough to cover them, otherwise they nustle toge<g ref="char:EOLhyphen"/>ther in <hi>Litter</hi> with the <hi>Sow</hi> and <hi>Pigs,</hi> being all of a <hi>Family:</hi> But their <hi>Smocks</hi> cannot properly be called <hi>Changes,</hi> for they seldom al<g ref="char:EOLhyphen"/>low themselves more than <hi>one,</hi> till that be worn out, which is used till it be fit to be torn off their Backs for <hi>touch</hi> to light <hi>Tobacco</hi> as they sit in the <hi>Fields,</hi> as I have seen them do. Thus the <hi>Smock</hi> is at last turned into <hi>Smoak,</hi> having first struck fire in the <hi>Devil's Tinder-box</hi> the <hi>Tobacco-Pipe,</hi> which one wit<g ref="char:EOLhyphen"/>tily compares to the Passion of <hi>Love,</hi> thus:
+<q>
+                  <pb n="22" facs="tcp:204437:14"/>
+                  <l>So fares it with an Amorous De<g ref="char:EOLhyphen"/>sire;</l>
+                  <l>The more 'tis kiss'd, the more 'tis set on fire.</l>
+               </q>
+            </p>
+            <p>
+               <hi>Dancing</hi> is much in request a<g ref="char:EOLhyphen"/>mongst them, after their rude way, which is much like the <hi>Drunken Bacchanals</hi> of old: Their chief De<g ref="char:EOLhyphen"/>light is called the <hi>Trott,</hi> and it is not named improperly, for not on<g ref="char:EOLhyphen"/>ly <hi>Banks</hi>'s Horse was an absolute <hi>Monsieur</hi> to them; and the heaviest <hi>Mare</hi> that ever trotted Man's Dag<g ref="char:EOLhyphen"/>ger out of its Sheath, went more regular and smoothly, but it hath likewise so many <hi>Horse-tricks</hi> in it, that 'tis much sitter for the <hi>Stable,</hi> than any decent <hi>Hall,</hi> or <hi>Dining-Room.</hi>
+            </p>
+            <p>The <hi>Jews Trump</hi> is their com<g ref="char:EOLhyphen"/>mon <hi>Musick,</hi> to whose Melody they will <hi>hobble</hi> till the <hi>labour</hi> makes them send forth a <hi>Haut-goust</hi> as little pleasing as their <hi>Tunes:</hi> but
+<pb n="23" facs="tcp:204437:14"/> if they can attain to a <hi>Harp</hi> or <hi>Bag-Pipe,</hi> O then they will Dance out of all <hi>Measure!</hi> add to this their Tatter-demallion <hi>Dress,</hi> and no <hi>An<g ref="char:EOLhyphen"/>timasque of Rag-a-Muffians</hi> was ever like them: Their <hi>Petticoats,</hi> if any, are of as many several Colours as a Tailor's fundamental <hi>Cushion;</hi> to which the <hi>Wastcoat</hi> is the fittest match that can be, and cross their Shoulders a Linnen <hi>shroud</hi> of the same hue of a Winding <hi>sheet</hi> after some Years burial. <hi>Shoes</hi> are above their Price, neither are <hi>Broags</hi> a Purchase for every one; No, they stand more upon their Feet than so, and for <hi>Stockings</hi> they have a very cheap and durable Mode, one Pair lasting their whole Pilgrimage, and those no other than of <hi>Nature's knitting,</hi> which sit close, and so tite, it saves the labour of <hi>Gart'ring;</hi> having no great fault, but their too much <hi>Calf.</hi>
+            </p>
+            <p>
+               <hi>Complements</hi> are as seldom used amongst them, as the <hi>Common-Prayers</hi>
+               <pb n="24" facs="tcp:204437:15"/> amongst the <hi>Non-Con;</hi> you might as soon teach an <hi>Elephant</hi> to cut a <hi>Caper,</hi> as bring one of them to make a handsom <hi>Leg:</hi> Such <hi>Block-heads</hi> have they, that 'tis a trouble to them to pull off their <hi>Hats;</hi> which done, shall be secon<g ref="char:EOLunhyphen"/>ded with a Speech containing less <hi>sence</hi> and <hi>reason</hi> than that of <hi>Ba<g ref="char:EOLhyphen"/>laam</hi>'s <hi>Ass;</hi> and to be sure must either be <hi>usher'd</hi> in, or out, with a <hi>By Chreesht</hi> and St. <hi>Patrick,</hi> or an <hi>Elegant-Curse,</hi> or two: But for this Nonsence perhaps their <hi>Nurses</hi> are to be condemn'd, who (espe<g ref="char:EOLhyphen"/>cially in <hi>Ulster</hi>) when they <hi>suckle</hi> their young <hi>Babes,</hi> if they chance to have a <hi>Cold</hi> in their <hi>Heads,</hi> sel<g ref="char:EOLhyphen"/>dom or never <hi>wipe</hi> their <hi>Noses,</hi> but <hi>suck</hi> them with their Mouths so <hi>hard,</hi> that, as one observed, 'tis very probable that they <hi>suck</hi> out all their <hi>Brains,</hi> and leave them for ever after empty Skull'd. <hi>I wonder,</hi> said one, to an Irishman, <hi>that being Thirty Years of Age, and having
+<pb n="25" facs="tcp:204437:15"/> travel'd through the best Part of the World, you should be so great a Fool still. That's no wonder,</hi> re<g ref="char:EOLhyphen"/>plies another. <hi>But the greater won<g ref="char:EOLhyphen"/>der is, that there should be a whole Kingdom of such Fools.</hi>
+            </p>
+            <p>
+               <hi>Shirts</hi> are no less out of date amongst the <hi>Teagues</hi> than <hi>Surplices</hi> with the <hi>Dissenters;</hi> so that one may guess what poor <hi>shift</hi> they make to keep their Bodies <hi>sweet:</hi> and may not this be one reason why they so much dread to hear one break wind at the <hi>Postern?</hi> The intolerable sustiness that must needs lye lurking in their unlined <hi>Breeches,</hi> adding a stench beyond the <hi>Devil's Poman<g ref="char:EOLhyphen"/>der:</hi> otherwise they do not appear so over-nice and curious, nor would they contradict the <hi>Proverb,</hi> That <hi>Every mans Tayl smells sweet in his own Nose:</hi> Neither would they let <hi>fly</hi> so often <hi>above-board,</hi> for they will <hi>belch</hi> as loud as <hi>Pot-guns,</hi> and as often as a <hi>Lover</hi> in absence breathes his amorous <hi>Sighs:</hi> But
+<pb n="26" facs="tcp:204437:16"/> add to the rest the straitness of their Breeches, called <hi>Trowses,</hi> which sit as close as a Jealous Wife to her Husband's <hi>Tayl,</hi> and you need not wonder at their backward <hi>Modesty.</hi>
+            </p>
+            <p>Some count them naturally <hi>hospi<g ref="char:EOLhyphen"/>table,</hi> but if they are so, it is after such an ill-favour'd manner, that 'tis like the giving an <hi>Alms</hi> in a <hi>nasty Clout,</hi> which <hi>Necessity</hi> may make welcom, but the greatest <hi>Charity</hi> cannot account <hi>Decent.</hi>
+            </p>
+            <p>
+               <hi>Bonny-Clabber</hi> and <hi>Mulahaan,</hi> alias <hi>Sowre Milk,</hi> and <hi>Choak-Cheese,</hi> with a Dish of <hi>Potatoes</hi> boiled, is the general Entertainment, to which add an <hi>Oat-cake,</hi> and it compleats their <hi>Bill of Fare,</hi> unless they in<g ref="char:EOLhyphen"/>tend to shew their excessive Prodi<g ref="char:EOLhyphen"/>gality, and tempt your Appetite with a Dozen of <hi>Eggs</hi> extraordinary, which many times, instead of being new-laid, prove like over-ridden Wenches, either <hi>rotten,</hi> or else ha<g ref="char:EOLhyphen"/>ving a young <hi>Chick</hi> in the belly of 'em. After this, comes <hi>Tobacco;</hi>
+               <pb n="27" facs="tcp:204437:16"/> which you must either take in Smoak, or Snuff, if you will be good Company, while they sit chewing it with as much eagerness and desire, as the longing great-bellied Woman did bite at the fat Man's Breech. And for a close to all this Treat <hi>(a la Grandezza)</hi> the Mistress shall produce her <hi>Moor<g ref="char:EOLhyphen"/>naun</hi> of <hi>sowre Milk,</hi> and having stript up her sleeve to the Shoulder, she thrusts up to the Arm-pits, and stirring the Curds at the bottom with her Hands▪ she then presents you with the Liquor, and if you like it, you may fill your Belly with her kindness till you are satisfied.</p>
+            <p>I have heard it affirmed also, by knowing Persons in this Country, that in some Parts of it, they have a way of making a <hi>Soupe,</hi> beyond all the <hi>French Pottages</hi> in <hi>Vogue;</hi> the way is thus, A <hi>Dame</hi> of the better sort, having had the good Fortune to boil a piece of very fat <hi>Pork,</hi> till a great part of it is run
+<pb n="28" facs="tcp:204437:17"/> into an <hi>Oil</hi> swimming on the top, she strips off her <hi>Smock,</hi> dips it therein till it has soaked up all the Grease; then puts it on her Body, and so wears it some days to <hi>smoo<g ref="char:EOLhyphen"/>then</hi> her <hi>Skin,</hi> and supple her <hi>Joints;</hi> now if afterwards there be occasion, and no store of other Pro<g ref="char:EOLhyphen"/>vision about the <hi>Cabban,</hi> off comes this <hi>anointed</hi> Garment agen, which being boiled in clear Water, and a little <hi>Oatmeal,</hi> and a small <hi>Faggot</hi> of Herbs; the melted Fat, and those other Ingredients will be con<g ref="char:EOLhyphen"/>verted into a most savoury Mess of <hi>Irish-Smock-broath,</hi> and then 'tis done in a <hi>Dish.</hi>
+            </p>
+            <p>Sure, they learned this in some Besieged City, like <hi>Sanserre,</hi> or <hi>London-Derry,</hi> near starved, where like the Parboil'd <hi>Shoes</hi> and <hi>Hydes,</hi> it might afford some <hi>relish,</hi> but they that can digest this abomina<g ref="char:EOLhyphen"/>ble <hi>Sluttery,</hi> not provoked or sharp<g ref="char:EOLhyphen"/>ned by <hi>Famine,</hi> need never stay their Stomachs till the Skie falls, for
+<pb n="29" facs="tcp:204437:17"/> such Dainties, as a Dish of <hi>Larks.</hi> Sure, where the <hi>Devil</hi> sent these <hi>Cooks,</hi> he must also send them <hi>Cu<g ref="char:EOLhyphen"/>stomers,</hi> or they may eat it all themselves.</p>
+            <p>But let me not forget their <hi>But<g ref="char:EOLhyphen"/>ter,</hi> made up with so much filth and <hi>Hair,</hi> it looks like the <hi>Lime</hi> we prepare to Plaister our <hi>Walls</hi> withal, which being beaten up into as rude a shape as a Spanish Piece of <hi>Eight,</hi> if eaten without Sindging, or not melted and strained, you shall run as great hazard, as one that would swallow the <hi>Burr</hi> of an over-grown <hi>Artichoke</hi> without But<g ref="char:EOLhyphen"/>ter, or a pickled Rope without <hi>Sauce:</hi> Hence one may easily guess the difference betwixt this and the Dutch <hi>Butter-box,</hi> the one cutting like Spanish <hi>Marmalad,</hi> the other like untried <hi>Kitchin-stuff,</hi> and ha<g ref="char:EOLhyphen"/>ving as rank an odour as a Car<g ref="char:EOLhyphen"/>riers Summer trotters. If they had the Wit to put the Hair in one Dish and the Butter in another a<g ref="char:EOLhyphen"/>part:
+<pb n="30" facs="tcp:204437:18"/> it might be in a Man's choice to take or leave as he pleased; but they are so order'd, you must eat both or none.</p>
+            <p>And that their <hi>Bread</hi> may be suitable to their <hi>Butter,</hi> and so stick the closer together, the Women grind their Corn on a Stone pla<g ref="char:EOLhyphen"/>ced betwixt their naked Thighs upon the Ground (in the very same posture as they Churn their Cream) Their <hi>Mills</hi> having this Advantage over others, that they are equally supplied both with <hi>Wind</hi> and <hi>Water</hi> at the same in<g ref="char:EOLhyphen"/>stant.</p>
+            <p>
+               <hi>Drinking</hi> is not so much their Vice, as some of their Neighbour<g ref="char:EOLhyphen"/>ing Nations, unless their so ex<g ref="char:EOLhyphen"/>cessive <hi>Smoaking</hi> be reckoned in, to which both the <hi>Men</hi> and <hi>Women</hi> are so generally addicted; yea, the very <hi>Children</hi> too, that an <hi>Infant</hi> of their breeding, shall take more delight in handling a <hi>Tobacco-Pipe</hi> than a <hi>Rattle,</hi> and will sooner
+<pb n="31" facs="tcp:204437:18"/> learn to make use of it, than ano<g ref="char:EOLhyphen"/>ther shall of it's <hi>Sucking-bottle.</hi> Sure<g ref="char:EOLhyphen"/>ly, this <hi>Indian</hi> Weed is a very <hi>Witch,</hi> and they have this resem<g ref="char:EOLhyphen"/>blance, that both of them are very masty and ugly.</p>
+            <p>The Liquor they palate best, when they venture at a Debauch, is <hi>Usquebaugh,</hi> a kind of exceeding strong <hi>Aqua-vitae,</hi> which though esteemed as Liquor of <hi>Life,</hi> yet it does sometimes leave them <hi>Dead Drunk</hi> upon the <hi>Spot.</hi>
+            </p>
+            <p>In their <hi>Sowse</hi> they are pettish and <hi>haughty,</hi> but not <hi>stout;</hi> for I have seen one resolute Stranger make a whole <hi>Bevy</hi> of them, lick up the foul Language they had vo<g ref="char:EOLhyphen"/>mited in his presence, and by draw<g ref="char:EOLhyphen"/>ing a little Blood from one, all the rest have been fainting; which shews that the Potion heats only their <hi>Brain</hi> and <hi>Tongue,</hi> but leaves the <hi>Heart</hi> cold as before, and does them this Prejudice, that it brings them many times <hi>into</hi> a <hi>Scuffle,</hi>
+               <pb n="32" facs="tcp:204437:19"/> but cannot bring them out agen with any credit, or honour.</p>
+            <p>For daring <hi>Valour,</hi> or true heat of Courage was never yet the Crime laid to their charge. And though <hi>Wars</hi> has often been given to them; yet I wonder when it was that they were so given to <hi>War</hi> as <hi>Solinus</hi> affirms, that the <hi>Mother</hi> at the Birth of a <hi>Son,</hi> gave the Child the first piece of Flesh it ever tasted upon the point of her Husband's <hi>Sword,</hi> using many stout Impreca<g ref="char:EOLhyphen"/>tions, wishing that it might live and die no otherwise than by the <hi>Sword.</hi> But since, it seems, that <hi>Sword</hi> by the Iron teeth of <hi>Time,</hi> has been eaten away into a <hi>Skeyne</hi> only, like that of Captain <hi>Bessus</hi> into a <hi>Dagger:</hi> for take them all along both in the time of <hi>Oliver,</hi> and these present Combustions, and you will find that never Men sneak'd themselves so unworthily out of their Interests as they have done, witness the late Siege of <hi>London-derry,</hi>
+               <pb n="33" facs="tcp:204437:19"/> where a small <hi>Town,</hi> a Gar<g ref="char:EOLhyphen"/>rison of <hi>unexperienced</hi> and <hi>unprovi<g ref="char:EOLhyphen"/>ded</hi> People; a <hi>Gown-man</hi> for their <hi>Governor,</hi> withstood the whole force of their <hi>Royal</hi>-Army, headed by old foreign <hi>Generals:</hi> who notwith<g ref="char:EOLhyphen"/>standing their <hi>regular</hi> Approaches, their <hi>threatning Bombs,</hi> and all o<g ref="char:EOLhyphen"/>ther Arts of <hi>Military</hi> Stratagems, were at length forced to retire, and would have fain shuffled all away, if those of <hi>Inniskilling</hi> had not so rudely saluted and stopt many of them, <hi>en passant,</hi> which the <hi>Mon<g ref="char:EOLhyphen"/>sieurs</hi> of their Party think to be so very uncivil towards those that had been sent so far to give them a <hi>vi<g ref="char:EOLhyphen"/>sit,</hi> that it's believed, if ever any of them can recover their own <hi>Country</hi> again, they will hardly return into <hi>Ireland;</hi> since they un<g ref="char:EOLhyphen"/>derstand Complement no better, or use such rugged Ceremonies to those that have been bred more <hi>Courtier-like.</hi> So that if we consider the meer <hi>Irish,</hi> it seems these poor Da<g ref="char:EOLhyphen"/>stards
+<pb n="34" facs="tcp:204437:20"/> have not so much as the very ruins of Valour left in them, to reach forth to Posterity any sign that they are the lawful Descen<g ref="char:EOLhyphen"/>dants of those <hi>valiant</hi> Ancestors, and courageous <hi>Amazons</hi> mention<g ref="char:EOLhyphen"/>ed by <hi>Solinus.</hi>
+            </p>
+            <p>It is an Irish Observation <hi>(and a notable one to)</hi> that whenever two Armies meet in <hi>Battle,</hi> the one must <hi>run,</hi> for both cannot <hi>conquer,</hi> and since one must give <hi>way,</hi> why not at the <hi>beginning</hi> before much Bloodshed, rather than after too many lives are <hi>lost;</hi> and since one of them must, or generally does <hi>run,</hi> who fitter to <hi>run</hi> than they whom Nature has provided with better <hi>Legs</hi> to <hi>run,</hi> than <hi>Hands</hi> or <hi>Hearts</hi> to <hi>fight;</hi> therefore they commonly do <hi>run,</hi> and <hi>run</hi> be<g ref="char:EOLhyphen"/>times, lest some Wound in their Legs should hinder their <hi>nimble</hi> Retreat: This made an old expe<g ref="char:EOLhyphen"/>rienc'd <hi>Officer</hi> (who knew the way of the reasoning of these Bruits)
+<pb n="35" facs="tcp:204437:20"/> cause some <hi>Regiments</hi> of <hi>Dragoons</hi> to march on foot up towards their more numerous Army, with <hi>Boots</hi> on, whom when the <hi>Irish</hi> beheld, they straightway concluded that those <hi>English</hi> men being booted, <hi>would</hi> not, or <hi>could</hi> not <hi>run,</hi> and since one Party must go off at last, it must needs be themselves, and therefore they discreetly ran all away immediately.</p>
+            <p>Or if ever they do fight, they do it more courageously upon any other <hi>Turf,</hi> than their own; for there, as abovesaid, their <hi>Heels</hi> do ever do them more Service than their <hi>Hands</hi> (which profess them<g ref="char:EOLhyphen"/>selves utter Enemies of all Industry) and if they recover a <hi>Bog,</hi> St. <hi>Pa<g ref="char:EOLhyphen"/>trick</hi> then hugs them in the <hi>bosom</hi> of his <hi>safest</hi> Protection.</p>
+            <p>
+               <hi>Bloody</hi> they are when they can o'repower, and do it securely, and this is an Effect of their base <hi>Cow<g ref="char:EOLhyphen"/>ardise,</hi> (for <hi>that</hi> and <hi>Pride</hi> and <hi>Cruelty</hi> are <hi>Curs</hi> of the same <hi>Litter</hi>)
+<pb n="36" facs="tcp:204437:21"/> witness their execrable <hi>Butcheries</hi> and <hi>Massacres</hi> of our poor unwary and unarmed <hi>Country-folks,</hi> their Burning and Destroying of Towns, which hath lain upon them so hea<g ref="char:EOLhyphen"/>vy ever since, that what <hi>Cause</hi> so<g ref="char:EOLhyphen"/>ever they manage, hath but ill <hi>suc<g ref="char:EOLhyphen"/>cess,</hi> and what <hi>Friends</hi> soever en<g ref="char:EOLhyphen"/>gages for them, have and shall still suffer the more <hi>deeply</hi> for being on that <hi>side.</hi>
+            </p>
+            <p>A <hi>Stiff-necked</hi> Generation they cannot be called, they lay them down so readily to every <hi>Yoak,</hi> as if they were born to <hi>Servitude,</hi> and so we find them inclined to have been indifferently under their own <hi>Countrymen,</hi> or under their <hi>old</hi> Friends the <hi>Spaniards</hi> in <hi>former</hi> times, and their new <hi>Friends</hi> the <hi>French</hi> at present, if the <hi>English</hi> should not prevent it. Therefore are they the less to be <hi>pitied,</hi> be<g ref="char:EOLhyphen"/>cause by them there is no greater Liberty <hi>expected,</hi> or much desired and struggled for by them.</p>
+            <pb n="37" facs="tcp:204437:21"/>
+            <p>Some <hi>few Places</hi> they have which may be of good Strength, but those general Buildings they call <hi>Castles,</hi> wherein some better sort of <hi>Teagues</hi> do dwell, are indeed no other than meer <hi>Prisons,</hi> where every Apart<g ref="char:EOLhyphen"/>ment is but a different <hi>Dungeon;</hi> and though they were intended for places of <hi>Defence,</hi> not for Pleasure, or <hi>Oeconomical</hi> convenience; yet whoever surveys them with a skil<g ref="char:EOLhyphen"/>ful Eye, does meet with such strange Irregularities and Transgressions a<g ref="char:EOLhyphen"/>gainst both the Ancient and Mo<g ref="char:EOLhyphen"/>dern Rules of Fortification, as will soon make him conclude it was their great <hi>Fear</hi> and little <hi>Wit,</hi> or Judg<g ref="char:EOLhyphen"/>ment, that was chief <hi>Ingenier;</hi> so that they may more properly be called <hi>Block-houses,</hi> in honour of those <hi>Dull-heads</hi> that Founded them.</p>
+            <p>And as they shewed but little In<g ref="char:EOLhyphen"/>genuity in their contrivance that raised them; so their <hi>Heirs</hi> have hitherto (and I believe will here<g ref="char:EOLhyphen"/>after)
+<pb n="38" facs="tcp:204437:22"/> shew less <hi>Courage</hi> in <hi>Defend<g ref="char:EOLhyphen"/>ing</hi> them, who though they may have <hi>lofty Towers,</hi> yet having but <hi>groveling Spirits,</hi> tho' they have <hi>strong Walls,</hi> yet having but <hi>weak Hearts,</hi> tho' they have <hi>Care</hi> and <hi>Fear</hi> enough to Man a <hi>Fort;</hi> (which are said to be the most cir<g ref="char:EOLhyphen"/>cumspect and wary <hi>Sentinels</hi>) yet having so little brave <hi>Resolution</hi> to back them withal, they will scarce prove so good a <hi>Guard</hi> as the <hi>Geese</hi> were to the <hi>Capitol,</hi> for they are said to have preserved that place, whereas these have often already, (and I dare affirm, will often here<g ref="char:EOLhyphen"/>after) <hi>surrender</hi> and <hi>fly,</hi> at first Summons, without so much as <hi>his<g ref="char:EOLhyphen"/>sing</hi> or <hi>gaggling.</hi>
+            </p>
+            <p>And as these <hi>Castle-houses</hi> are but rough-hewn on the outside, so are they yet more homely within, their general Furniture is scarce worth the mention, and such as have the best, do marshal it after such an indecent manner, that it lies in as
+<pb n="39" facs="tcp:204437:22"/> great disorder as a <hi>Tavern</hi> after a Midnights <hi>revelling</hi> Debauch, or a <hi>Bawdy-house</hi> after a <hi>fray.</hi>
+            </p>
+            <p>The middle sort of People, had formerly many more of these sort of <hi>Dens,</hi> but in the <hi>long Parliaments</hi> time an infinite number were de<g ref="char:EOLhyphen"/>stroyed, or so defaced, they now look like the remnant of a <hi>London-Custard,</hi> that has been assaulted at a City <hi>Feast,</hi> with much <hi>Valour</hi> and <hi>Stomach.</hi>
+            </p>
+            <p>I do not hereby design any thing of the true <hi>Gentry,</hi> or <hi>Nobility,</hi> a<g ref="char:EOLhyphen"/>mongst whom there are Persons of as great <hi>Valour,</hi> as fair <hi>Estates,</hi> as good <hi>Literature</hi> and <hi>Breeding,</hi> and as <hi>Eminent</hi> Vertues as in any of the most <hi>Polite</hi> Countries: And of these some have as Pompous Titles as any Men upon Earth, to wit, a Duke of <hi>Ormond,</hi> or the <hi>Golden World;</hi> Earl of <hi>Twomund,</hi> or <hi>two Worlds;</hi> and of <hi>Desmond,</hi> or <hi>ten Worlds,</hi> as if one World were too little for them: whilst the Commons
+<pb n="40" facs="tcp:204437:23"/> are contented with the meanest Ti<g ref="char:EOLhyphen"/>tles, and least Proportion that can be imagined of one poor dirty cor<g ref="char:EOLhyphen"/>ner of this World.</p>
+            <p>But to return to our first <hi>Post:</hi> Their <hi>Language</hi> seems to be very ancient, indeed, being almost worn quite out of <hi>Date,</hi> scarce known in any other Country, and not gene<g ref="char:EOLhyphen"/>rally used in their own: To a Fo<g ref="char:EOLhyphen"/>reigner it sounds so unpleasant, that it rather <hi>grates</hi> than <hi>tickles</hi> the <hi>Ear,</hi> and seems fitter to <hi>conjure</hi> than con<g ref="char:EOLhyphen"/>verse in. Withal, they use such a <hi>whining</hi> tone, and speak so precipi<g ref="char:EOLhyphen"/>tately, that considering their Garb and Posture, you would think they had been newly stript of their lit<g ref="char:EOLhyphen"/>tle All; and were now hastily and earnestly craving your Relief and Charity for a fresh Supply.</p>
+            <p>Nor are they more grave or de<g ref="char:EOLhyphen"/>mure in their <hi>Pace;</hi> but frisk it about the Streets, so Post-horse like, as if a <hi>Bailiff</hi> pursued them, or some fiercer <hi>Devil</hi> drove them.</p>
+            <pb n="41" facs="tcp:204437:23"/>
+            <p>Yet at their work they are on the other hand, so <hi>slow</hi> and <hi>delibe<g ref="char:EOLhyphen"/>rate</hi> (Digging, Ploughing, Thrash<g ref="char:EOLhyphen"/>ing, <hi>&amp;c.</hi> with their Cloaks upon their Backs, and wasting so much of their time in <hi>Smoaking</hi> and <hi>Pra<g ref="char:EOLhyphen"/>ting</hi>) that it is usual to hire Four of these <hi>Lubbers</hi> to dispatch the same daily Proportion of Work, as is performed by one Industrious <hi>English-hind;</hi> which would be very chargeable, did they not humbly submit to accept of much lesser Wa<g ref="char:EOLhyphen"/>ges, which they take good care not to over-earn, lest they should surfeit themselves, or wear out their pre<g ref="char:EOLhyphen"/>cious <hi>Limbs</hi> too soon; and either want more Business, or the Strength to go thorow with it next day.</p>
+            <p>Some <hi>Historians</hi> do speak them to be very <hi>tender</hi> and careful of their <hi>Young</hi> ones: but wherein that tender<g ref="char:EOLhyphen"/>nessconsists, is not readily to be found out. For their <hi>Food</hi> is not in the least degree better than they allow their <hi>Pigs, Bonny-rowre</hi> for the Sum<g ref="char:EOLhyphen"/>mer,
+<pb n="42" facs="tcp:204437:24"/> and <hi>Potato-roots</hi> in <hi>Winter</hi> are their choicest Dainties: and then for their <hi>Cloathing,</hi> it is yet <hi>courser;</hi> of a whole <hi>Child</hi> the third part is scarce cover'd with <hi>Woollen;</hi> nor so much <hi>Linnen</hi> to be seen amongst a whole <hi>Tribe</hi> as would make a <hi>Quakers</hi> falling-band, or furnish an ordinary Box with <hi>Tinder,</hi> they being for the most part as naked as a young <hi>Ladies</hi> Neck in the <hi>Dog<g ref="char:EOLhyphen"/>days,</hi> or the <hi>Bird</hi> in the Fable stript of its borrowed Plumes; so that unless their <hi>Apish</hi> hugging them in their Arms, or carrying them on their <hi>Backs</hi> can make it out, I can<g ref="char:EOLhyphen"/>not.</p>
+            <p>And when they are grown up, their <hi>Education</hi> is suitable to the rest of their Care: For I have known ma<g ref="char:EOLhyphen"/>ny other People take more pains to reach a <hi>Parrot,</hi> or to train a <hi>Spaniel,</hi> than they do to instruct their <hi>Chil<g ref="char:EOLhyphen"/>dren,</hi> and perhaps have brought them to more dexterity of Under<g ref="char:EOLhyphen"/>standing, and Ingenuity: <hi>Writing</hi>
+               <pb n="43" facs="tcp:204437:24"/> is a rarity, and <hi>Reading</hi> would be utterly laid aside, were it not of great and important consequence when they are allowed the Benefit of their <hi>Clergy</hi> in a <hi>Neck-verse.</hi> And how much the want of <hi>Educa<g ref="char:EOLhyphen"/>tion</hi> sets them beneath a Learned and <hi>Polite</hi> People, may be found out in the first Hours conversation with either of them.</p>
+            <p>But however careless they be of the <hi>Living,</hi> they are mightily con<g ref="char:EOLhyphen"/>cerned for the <hi>Dead,</hi> having a Cu<g ref="char:EOLhyphen"/>stom, (which sure they borrowed from the <hi>Egyptians</hi>) of <hi>howling</hi> when they carry any one to Burial, and <hi>screaming</hi> over their <hi>Graves,</hi> not like other <hi>Christians,</hi> but like People without <hi>Hope:</hi> and sooner than this shall be omitted, they do hire a whole <hi>Herd</hi> of these <hi>Croco<g ref="char:EOLhyphen"/>dils</hi> to accompany the <hi>Corps,</hi> who with their counterfeit <hi>Tears</hi> and <hi>Sighs,</hi> and confused <hi>Clamour</hi> and Noise, do seem heartily to bemoan the departed Friend, though all this
+<pb n="44" facs="tcp:204437:25"/> is with no more concern and reali<g ref="char:EOLhyphen"/>ty, than an Actor on the Theatre for the feigned Death of his <hi>Dearest</hi> in a <hi>Tragedy.</hi> Instead of a <hi>Funeral Oration,</hi> they bawl out these or the like querulous Lamentations, <hi>O hone! O hone! Dear Joy, why did thou die and leave us? Hadst thou not Pigs and a Potato Garden? Hadst thou not some Sheep and a Cow, Mulahan and Oat-cake, and good Usquebaugh to comfort thy heart, and put Mirth upon thy Friends? Then, wherefore wouldst thou leave this good World, and thy poor Wife and Children? O hone! O hone!</hi> with much more such stuff; to all which, <hi>Dear Joy,</hi> lend<g ref="char:EOLhyphen"/>ing but a deaf Ear, sleeps on till <hi>Doomesday by St.</hi> Patrick, while home they go to <hi>Drink,</hi> and drown the present <hi>Sorrow;</hi> till the Melan<g ref="char:EOLhyphen"/>cholly fit comes upon them afresh, and the <hi>Melodious Harp,</hi> or <hi>Bag-Pipe</hi> is out of the way, and then they resort to the <hi>Grave,</hi> and be<g ref="char:EOLhyphen"/>dew
+<pb n="45" facs="tcp:204437:25"/> it with <hi>Tears as big as Turnips,</hi> repeating and howling their <hi>O hones</hi> with as much deep Sence and Sor<g ref="char:EOLhyphen"/>row as before.</p>
+            <p>They have many other extrava<g ref="char:EOLhyphen"/>gant Customs daily practised at their <hi>Weddings</hi> and <hi>Christnings,</hi> all which would be worth describing, did we know the <hi>Original</hi> Institu<g ref="char:EOLhyphen"/>tion, and true Signification of them, but this they either conceal, or do not now well understand.</p>
+            <p>Having occasion once to go to a Country <hi>Town</hi> of no small note, I chanced to wander into the midst of the <hi>Market-place,</hi> yet could not find where the Town stood; I saw indeed, several heaps of Rubbish which look'd like <hi>Dunghills</hi> cover'd over with weather-beaten <hi>Straw,</hi> and imagin'd, they were, or might be Peopled with <hi>Swine,</hi> but could not possibly guess them the Habita<g ref="char:EOLhyphen"/>tions of any <hi>Human Race,</hi> unless there should be extant a Generation of <hi>Pigmies;</hi> but upon inquiry and
+<pb n="46" facs="tcp:204437:26"/> further search, these were the Dwel<g ref="char:EOLhyphen"/>lings of the <hi>Teaguelanders</hi> them<g ref="char:EOLhyphen"/>selves, so low, one would have ima<g ref="char:EOLhyphen"/>gined an <hi>Earthquake</hi> had unmerci<g ref="char:EOLhyphen"/>cifully swallow'd the Buildings, all but the very <hi>Cook-lofts;</hi> the Policy being, as I after learned, to prevent any Enemy that should come to quarter upon them, and make <hi>Sta<g ref="char:EOLhyphen"/>bles</hi> for their <hi>Horses</hi> of their <hi>Dining-Rooms</hi> or <hi>Bed-Chambers,</hi> which now they defie them to do, unless the humble Beasts could creep in upon their <hi>knees,</hi> and sit down at their Mangers as themselves are ever for<g ref="char:EOLhyphen"/>ced to do within Doors.</p>
+            <p>Some of their Chief <hi>Cities</hi> are tol<g ref="char:EOLhyphen"/>lerably good, but most of them more Populous than Rich (<hi>Dublin</hi> excepted) for though they are thronged like <hi>Hives,</hi> yet being for the most part <hi>Drones,</hi> they rather diminish than encrease their <hi>Stock;</hi> so that were it not for the Industri<g ref="char:EOLhyphen"/>ous <hi>English</hi> and Strangers amongst them, I am persuaded in process
+<pb n="47" facs="tcp:204437:26"/> of time, they wou'd let it all run into its original wildness, and live either like Canibals upon one ano<g ref="char:EOLhyphen"/>ther; or like their Native Wolves, (from whom they are now but one degree removed in point of Industry and Humanity) upon the next Prey they could light on, tho' of their nearest Blood, rather than take the least honest pains to provide better for themselves, or their wretched Progeny.</p>
+            <p>But certainly were more of our laborious English, or some of our Active and Industrious Neighbours planted there, and once in the quiet Possession of that Island, they would soon turn their Rags into Riches; their Corn and Cattle into Coyn, and make them more famous for their Plenty and Abundance, than they are now despicable for their Want and Scarcity of Cash, and Courage.</p>
+            <p>One Privilege, indeed, they have to boast of above most other Coun<g ref="char:EOLhyphen"/>tries;
+<pb n="48" facs="tcp:204437:27"/> which is, that they are free from Venomous Creatures (as <hi>Eng<g ref="char:EOLhyphen"/>land</hi> is from Ravenous) which we may believe to be a Natural Anti<g ref="char:EOLhyphen"/>pathy, like that of the Islands <hi>Cy<g ref="char:EOLhyphen"/>prus,</hi> and <hi>Guernzey;</hi> Tho' they will needs attribute it to their Miracle<g ref="char:EOLhyphen"/>monger St. <hi>Patrick,</hi> who, (as their Tradition goes) did one day Sum<g ref="char:EOLhyphen"/>mon them all together on the top of an high and large Hill, called <hi>Cruich Phadrick,</hi> or St. <hi>Patrick</hi>'s <hi>Mount;</hi> where having by irrisisti<g ref="char:EOLhyphen"/>ble Conjuration assembled them, he, by his powerful Invocation cal<g ref="char:EOLhyphen"/>led for Fire from Heaven, which came down, and consumed them: To which part of the Legend, some have added (with as much proba<g ref="char:EOLhyphen"/>bility of truth) That the great Croud of Irish Witnesses whom the good Saint had brought with him to see this feat, and bear testimony of it, finding he had so good inte<g ref="char:EOLhyphen"/>rest and familiarity with God Al<g ref="char:EOLhyphen"/>mighty to obtain what he but asked
+<pb n="49" facs="tcp:204437:27"/> for, desired him fortwith to make a second Petition, that Heaven would send down a plentiful Shower of Gold and Silver to cure them of their Poverty, and make them as opulent as the richest Nations: But he angrily replied, That God would work no Miracles to gratifie their Covetousness; That he had already given them a large Country, which they were to Cultivate and Improve, and that their honest Labour would bring them in a sufficient Stock of Wealth, <hi>&amp;c.</hi> and therefore if they were not enough satisfied with this great Blessing so freely conferred, but continued to murmur, and tempt God too far, perhaps he might for their unthankfulness and sordid De<g ref="char:EOLhyphen"/>sires, turn it into a Curse again, to their perpetual Punishment. But they still importuning him, he at last made a second Essay, not Pe<g ref="char:EOLhyphen"/>titioning for Gold or Silver, but that God would send down what he knew to be fittest for that Genera<g ref="char:EOLhyphen"/>tion.
+<pb n="50" facs="tcp:204437:28"/> Which word he no sooner had pronounced, but there arose a great and furious Whirlwind, which blew and dispersed the Ashes of those Poisonous Creatures over all the whole Country, and the same being forthwith converted all into <hi>Lice,</hi> they have for ever since con<g ref="char:EOLhyphen"/>tinued a most Nasty and Lowzy Generation, and could never find a Cure, or remove this Epidemical, Egyptian Bosom-plague, so close it yet sticks to them.</p>
+            <p>A most excellent Country it is for a young Traveller to be first seasoned in, for let him but once taste of their Entertainment and Usage, and I dare undertake he shall love all the rest of the World much better ever after) (except <hi>Scot<g ref="char:EOLhyphen"/>land.</hi>)</p>
+            <p>A certain Portion of the County of <hi>Galloway</hi> is very well worth ob<g ref="char:EOLhyphen"/>servation; for in a considerable ex<g ref="char:EOLhyphen"/>tent thereof, Nature affords 'em neither Water enough to drown 'em,
+<pb n="51" facs="tcp:204437:28"/> Wood enough to Hang 'em, nor Earth enough to Bury 'em; and yet 'tis very well Inhabited: Now what sort of Creatures, unless a race of Spanish Gennets, that are said to engender by the Wind, or a brood of Cameleons that feed upon Air, can subsist where three of the most necessary Elements are so scarce, I leave <hi>Oedipus</hi> to judge.</p>
+            <p>Friendly they are in outward ap<g ref="char:EOLhyphen"/>pearance and Promises, and upon ordinary Occasions one may make use of them: But at a pinch, or time of extraordinary trial, if you lean too hard, they prove but bro<g ref="char:EOLhyphen"/>ken Reeds, and not only fail to sup<g ref="char:EOLhyphen"/>port, but often wound the hand that resteth on their brittle Faith.</p>
+            <p>Of this they have given so many eminent and recent Examples, that the whole World is witness of the Truth of the Assertion: For at the Battle of the <hi>Boyne,</hi> where our vi<g ref="char:EOLhyphen"/>ctorious Hero King <hi>William</hi> set upon them under all the Circumstances of
+<pb n="52" facs="tcp:204437:29"/> Disadvantage, except his Matchless Courage; how basely did they sneak away whilst their foreign Friends made a tollerable (tho' short) re<g ref="char:EOLhyphen"/>sistance; and tho' they had Vowed by <hi>Creesht and by St.</hi> Patrick <hi>to stand by them, and look their Enemies in the fauce, till Death was put upon them:</hi> yet they all upon a little firing turn'd tail in an instant, and disappeared with such Agility, that Thousands of them seemed to out<g ref="char:EOLhyphen"/>flee the very Shot that were sent after them, and out-ran the nim<g ref="char:EOLhyphen"/>blest Horsemen that pursued them; leaving their best Officers, and such as had any Valour, to make what retreat and shift they could, without the least regard or assistance on their part.</p>
+            <p>Since which, in all their Winter Skirmishes, their petit Assaults upon Gentlemens Houses, their Rapperie Stratagems, and Bogg-Plots, they have shewed so much Cruelty, (where ever they could surprize
+<pb n="53" facs="tcp:204437:29"/> any unarmed Men, or Women and Children) and so little Courage upon any slight resistance, that it demonstrates them to be more bloo<g ref="char:EOLhyphen"/>dy than Tygers, and at the same time, more timerous than Hares: But there is now fair hopes the greatest Crew of that cursed Gene<g ref="char:EOLhyphen"/>ration will be utterly extirpated, ei<g ref="char:EOLhyphen"/>ther by Martial-Law, which hath already Hanged them up as thick as Rabbits by Couples in a Poulte<g ref="char:EOLhyphen"/>rer's Shop, or Vermin in a Warren. Or by transplanting them into some other Country so far distant, that their very Name and Ignominious Memory may be lost to all the ci<g ref="char:EOLhyphen"/>vilized World.</p>
+            <p>A second most remarkable in<g ref="char:EOLhyphen"/>stance we gather from their Beha<g ref="char:EOLhyphen"/>viour at the Action of <hi>Athlone,</hi> (to omit <hi>Mullingar,</hi> &amp;c.) where in a Town most regularly Fortified, well Provided, and fully Garrison'd, an Army Encamped within sight to Relieve and Support them, com<g ref="char:EOLhyphen"/>manded
+<pb n="54" facs="tcp:204437:30"/> by a fierce and bloody French General (most famous for his Hangman-like Exploits, and Butcherly Infamies) besides a dan<g ref="char:EOLhyphen"/>gerous Ford to be passed in the very teeth of their great and small Shot: Notwithstanding all these Obstructions, a small Party of Eng<g ref="char:EOLhyphen"/>lish Granadiers marching thorow the Water on foot, and following their brave Commanders with loud Shouts of Joy (as it were going on<g ref="char:EOLhyphen"/>ly in Triumph to the Breach they attacqued) they no sooner saw them set foot on shoar, and cast their Hand Granadoes into their Works, but they modestly withdrew, and as many as conveniently could, re<g ref="char:EOLhyphen"/>treated at the Irish rate from the other End of the Town towards the frenchified Camp, when meet<g ref="char:EOLhyphen"/>ing with some Detachments of Horse approaching to assist them, They told them they might spare the la<g ref="char:EOLhyphen"/>bour, for the Enemy had forced their way in thorow <hi>Fire</hi> and <hi>Wa<g ref="char:EOLhyphen"/>ter,</hi>
+               <pb n="55" facs="tcp:204437:30"/> and would not be persuaded to stay their coming; therefore who could be so fool-hardy, as to con<g ref="char:EOLhyphen"/>tend with, or oppose such desperate and wilful Men; upon which they were convinced in it to be safer to retire than advance, and so turned back again to the Tune of a run<g ref="char:EOLhyphen"/>ning Jigg, not staying for any word of Command, nor the Com<g ref="char:EOLhyphen"/>manders themselves, whom they left to the Enemies mercy, according to the right <hi>Teaguish Faith</hi> and <hi>Gallantry.</hi>
+            </p>
+            <p>Now what hopes the French De<g ref="char:EOLhyphen"/>vil of a <hi>St. Ruth</hi> could Build upon this boggy Foundation of Irish Magnanimity and Fidelity to their new King <hi>Lewis d'Or,</hi> is hard to guess, unless he believed that for his former noble Service in the Dragooning the Hereticks in <hi>France,</hi> with so much Zeal for the Catho<g ref="char:EOLhyphen"/>lick Cause, he might be rewarded with the Crown of Romish Mar<g ref="char:EOLhyphen"/>tyrdom in <hi>Ireland,</hi> and admitted
+<pb n="56" facs="tcp:204437:31"/> into the Popish Kalendar for his abetting of St. <hi>Patrick</hi>'s Quarrel. Tho' I wish he do not find it true that the Title and Denomination he bare of <hi>St. Ruth</hi> here, has by the weight of his horrid Crimes sunk him down to be dignified of Satan below, and Entred into the Muster Roll of <hi>Pluto</hi>'s Black Guard of Dra<g ref="char:EOLhyphen"/>goons, as his highest Reward, and fittest for his blood-thirsty Genius.</p>
+            <p>It is reported of the Germans, and some other war-like People, that when they come within sight and hearing of the Enemy, being drawn up in Battalia, and almost ready to Engage, they draw out their broad Swords, and each with a Whet<g ref="char:EOLhyphen"/>stone, they carry for that purpose, falls to work to set a keen Edge on his Weapon, with so much eagerness and noise, that it begets no little terrour in the listening Foe, and Proclaims with what undaunted Resolution they prepare to Assault them. Whereas the <hi>Teigs</hi> do only
+<pb n="57" facs="tcp:204437:31"/> gaze about to see what Wood or Bog lies nearest, and can best shel<g ref="char:EOLhyphen"/>ter or favour them in their Retreat, or, perhaps by greazing their <hi>Broags,</hi> and anointing their <hi>Joints,</hi> make ready for a more speedy Flight; then throwing down their Arms, and trusting solely to their Legs, dare not so much as once look back, but leave the Devil to take the hindmost.</p>
+            <p>Blindly obedient <hi>Children</hi> they are to the Pope of <hi>Rome</hi> their <hi>Holy Father,</hi> and to the Church of <hi>Rome</hi> their <hi>Gawdy-Mother;</hi> yet so grosly ignorant in all Matters of Religion, that the History of <hi>Tom Thumb</hi> be<g ref="char:EOLhyphen"/>ing read to them, has passed cur<g ref="char:EOLhyphen"/>rant for the Legend of one of their famous Saints, and believed to be as true as Gospel; and if any im<g ref="char:EOLhyphen"/>probability, nay, impossibility lyes in their way, name but St. <hi>Patrick</hi> for Voucher, and they shall swallow as many Prodigeous Untruths, as would choak the Credulity of
+<pb n="58" facs="tcp:204437:32"/> the most illiterate <hi>Heathen</hi> alive.</p>
+            <p>Ask many of them, What was the Name of the most Blessed Vir<g ref="char:EOLhyphen"/>gin <hi>Mary,</hi> and 'tis ten to one, but they'l answer, it was <hi>Jane,</hi> or <hi>Su<g ref="char:EOLhyphen"/>san,</hi> and that St. <hi>Patrick</hi> was her <hi>Godfather;</hi> and to any the like Question, they will furnish you with the like Answer, <hi>&amp;c.</hi> So that if <hi>Ignorance be the true Mother of De<g ref="char:EOLhyphen"/>votion;</hi> the City of <hi>Rome</hi> it self cannot produce such Devout <hi>Catho<g ref="char:EOLhyphen"/>licks</hi> as these <hi>Teigs;</hi> and therefore it's pity but they should be trans<g ref="char:EOLhyphen"/>planted into the Territories of <hi>Holy Church,</hi> as being the most submis<g ref="char:EOLhyphen"/>sive Members thereof.</p>
+            <p>Much more might be said, but I have raked long enough in this Dunghil of <hi>Ireland,</hi> and shall add no more, but that it is,
+<q>
+                  <lg>
+                     <l>A Land which does no <hi>venom'd Beast</hi> disclose,</l>
+                     <l>Yet she breeds <hi>Men</hi> more <hi>Venomous</hi> than those;</l>
+                     <pb n="59" facs="tcp:204437:32"/>
+                     <l>Men, who in <hi>Cruelty</hi> are so sub<g ref="char:EOLhyphen"/>lime,</l>
+                     <l>It shews it is their <hi>Nature,</hi> as their <hi>Crime;</hi>
+                     </l>
+                     <l>Yet, when Our Hero's Landing they did hear,</l>
+                     <l>Their <hi>Guilt,</hi> tho' vast, did scarce transcend their <hi>Fear:</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>Which at the <hi>Boyne,</hi> his Victory made good,</l>
+                     <l>And wrote Heaven's <hi>Justice</hi> on them in their <hi>Blood.</hi>
+                     </l>
+                     <l>Which smee repeated by his <hi>Gene<g ref="char:EOLhyphen"/>ral's</hi> Sword,</l>
+                     <l>Th' Oppressors punish'd, and th' oppress'd restor'd.</l>
+                  </lg>
+               </q>
+            </p>
+            <div type="to_the_reader">
+               <opener>
+                  <salute>Impartial Reader,</salute>
+               </opener>
+               <p>To evince I have not branded the Commonalty of the Irish Nation with Cowardice either out of Igno<g ref="char:EOLhyphen"/>rance, or Spleen: or that meer ill Fortune, or any odd Accidents of War, hath been the occasion of their
+<pb n="60" facs="tcp:204437:33"/> late ill Successes (which many times hath befallen the bravest of Men:) I have, to make good my <hi>Chara<g ref="char:EOLhyphen"/>cter</hi> of them, added hereunto a true Account of their Behaviour in the beginning of the Former War, in the Time of the Long Parliament, wherein you shall find them de<g ref="char:EOLhyphen"/>scribed in lively colours to be the same timerous Animals I have de<g ref="char:EOLhyphen"/>clared, as will appear by this Irish Monthly Mercury Printed at <hi>Cork,</hi> at the same time the Things were Transacted: Which Matters of <hi>Fact,</hi> were never contradicted by themselves, of the <hi>Irish Nation,</hi> nor by any other <hi>Advocate</hi> for them. The <hi>Reflections</hi> therein contained, may be excused, if the <hi>Reader</hi> but duly considers in what <hi>Times</hi> it was written.</p>
+               <p>The annexed <hi>Poem,</hi> being a <hi>Land Voyage;</hi> is inserted only to describe the <hi>Nature</hi> of that <hi>Climate,</hi> most sub<g ref="char:EOLhyphen"/>ject to frequent and prodigious Floods of <hi>Rain,</hi> &amp;c.</p>
+               <pb n="61" facs="tcp:204437:33"/>
+               <p>The last is a <hi>Fragment</hi> of a larger <hi>Poem</hi> to <hi>His Majesty,</hi> which containing a short <hi>Character of England;</hi> was thought proper e<g ref="char:EOLhyphen"/>nough to be joyned hereunto.</p>
+               <p>Which with the <hi>Irish Epigram,</hi> serves to Conclude this Trifle.</p>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="62" facs="tcp:204437:34"/>
+            <head>
+               <hi>The</hi> Irish Monthly Mercury.</head>
+            <lg n="1">
+               <head>I.</head>
+               <l>BRave <hi>C.....</hi> (and his valiant blades)</l>
+               <l>Who hath conquer'd Kingdoms Three,</l>
+               <l>And made the War the best of Trades,</l>
+               <l>And made it like to be.</l>
+            </lg>
+            <lg n="2">
+               <head>II.</head>
+               <l>His Actions 'tis I do intend</l>
+               <l>T' expose unto your View;</l>
+               <l>Therefore no Muse I need to Friend,</l>
+               <l>Nor ought, but to speak true.</l>
+            </lg>
+            <lg n="3">
+               <pb n="63" facs="tcp:204437:34"/>
+               <head>III.</head>
+               <l>
+                  <hi>Jockey</hi>'s Defeat makes all the Earth</l>
+               <l>Abundantly to know him;</l>
+               <l>His Fame yet finds a second Birth</l>
+               <l>From <hi>Zim,</hi> and <hi>Gim,</hi> and <hi>Ohim.</hi>
+               </l>
+            </lg>
+            <lg n="4">
+               <head>IV.</head>
+               <l>O would he keep but his Command</l>
+               <l>For one Half-file of......</l>
+               <l>I'd lose my Head he'd clear the Land</l>
+               <l>Of base <hi>Teigs,</hi> and <hi>Bog-trotters.</hi>
+               </l>
+            </lg>
+            <p>IT is but just that the People should have <hi>News</hi> for their Mo<g ref="char:EOLhyphen"/>ney, and that they should hear as well as feel the Effects of their Taxes: the Committees have so perfectly performed the last, that if I do but the first as well, I may as much Merit a share in their Gain, as they deserve a Punishment for making any.</p>
+            <pb n="64" facs="tcp:204437:35"/>
+            <p>But because I undertake the Eng<g ref="char:EOLhyphen"/>lish Armies progress, I will run over briefly those principal Occurrences which happen'd before I could come to the conveniency of a Press, and henceforth Monthly deduce you all things in as Set a Form, as the Common-Prayer or Mass-Book.</p>
+            <p>Not long after the Sally at <hi>Dub<g ref="char:EOLhyphen"/>lin,</hi> which the Enemy out of Mo<g ref="char:EOLhyphen"/>desty call the <hi>Battel of</hi> Ramines, the Lord Lieutenant landed at <hi>Dub<g ref="char:EOLhyphen"/>lin</hi> with an Army so nourisht in Victory, that they never saw any Defeats, but those they gave their Enemies. The first Design they un<g ref="char:EOLhyphen"/>dertook, was the gaining of <hi>Tre<g ref="char:EOLhyphen"/>dagh,</hi> in which the Noble O..... had placed above Three Thousand of his select Men, and Sir <hi>A.... A....</hi> for Commander, one as unable to stand to it, as to run away: and it may be that's the reason he fell in the Service, doubtless he was better for a Retreat, since every step he would make a <hi>halt.</hi> In a word, if
+<pb n="65" facs="tcp:204437:35"/> the rule be true of judging <hi>Her<g ref="char:EOLhyphen"/>cules</hi> by his Foot, one may conclude this a wooden Governour. Yet he had made so good Earthen Fortifi<g ref="char:EOLhyphen"/>cations, that by trusting to his Works, he shewed what Religion he was of. Their first Retrench<g ref="char:EOLhyphen"/>ment against us, was the Church, out of which they were soon dis<g ref="char:EOLhyphen"/>lodged; And I dare say, 'twas the first time they ever went from Church unwillingly. This being done too, by some Ordinance of Parliament, 'tis not unlikely, the grave Presbyterians, (if ever the Assembly come into play agen) may question their Proceeding, and aver we have a mind our Enemies should still continue Papists, by so preg<g ref="char:EOLhyphen"/>nantly evincing there was no Sal<g ref="char:EOLhyphen"/>vation for them in our Church. At length the breach being found as<g ref="char:EOLhyphen"/>saultable (more from the Event than the largeness of it) our Army were so little Courtiers, as to enter the Town, without so much as
+<pb n="66" facs="tcp:204437:36"/> knocking at the Gate, where all lost their lives but those that saved them: Of the first qualification there were about Three Thousand; of the latter Thirty, be it more or less.</p>
+            <p>Whilst this was doing, <hi>Inchequin,</hi> to divert, but it proved to increase our success, assaulted the <hi>Naus,</hi> a Town fortified like <hi>Jerico,</hi> after the Battery of the <hi>Rams-horns,</hi> from whence he drew off with a Flea in's Ear, confessing in his Heart, that Providence was a better Engineer than <hi>A.....,</hi> and concluding the Spanish fashion was the best, which is to leave a Town when one can<g ref="char:EOLhyphen"/>not take it.</p>
+            <p>Doubtless the Sympathetick Ope<g ref="char:EOLhyphen"/>ration is not meerly Notional; for we find, that though there wanted a <hi>Medium</hi> to hand and convey the Enemies fears from <hi>Tredagh</hi> to <hi>Trim</hi> and <hi>Dundalk;</hi> yet by Sym<g ref="char:EOLhyphen"/>pathetical working, those in the two last specified Garrisons abandoned
+<pb n="67" facs="tcp:204437:36"/> them as soon as we had the first, and thereby gave us no trouble in the taking them, but that we took nothing in them.</p>
+            <p>The Army, after a short breath<g ref="char:EOLhyphen"/>ing at <hi>Dublin,</hi> march'd with some Cannon to <hi>Washford;</hi> a thing (to those that know the way) as hard to be believed as performed; and indured more to seek Danger, than others could to avoid it. <hi>Washford</hi> is the <hi>Dunkirk</hi> of <hi>Ireland,</hi> and a place only famous for being infa<g ref="char:EOLhyphen"/>mous: This also the Army took by Storm; but a few were spared, and but a few put to the Sword; for the <hi>Divine Justice</hi> manifested it self to be what it is, in making those who had ruined many by the <hi>Sea,</hi> to be ruined in it. 'Tis a fre<g ref="char:EOLhyphen"/>quent rule with Heaven, to evi<g ref="char:EOLhyphen"/>dence the Sin in the Punishment: near Two Thousand of those <hi>Otters</hi> were drowned; which was generally esteemed a Misfortune, but only be<g ref="char:EOLhyphen"/>cause there were no more drowned.</p>
+            <pb n="68" facs="tcp:204437:37"/>
+            <p>From <hi>Washford</hi> the Army march'd to <hi>Ros Pontis,</hi> so called, (as I take it) because it never had a Bridge. The place was soon yielded; and tho' the dispute was short, the Foe made a shift to lose Five hundred Men; who being all English, fought stoutly for the time, and gave us ten times the work of so many Irish. This was the dearest Siege we un<g ref="char:EOLhyphen"/>dertook; for it cost ever since as much Money as will Pay half a Thousand of Men.</p>
+            <p>Certainly that Axiom in Philo<g ref="char:EOLhyphen"/>sophy is true, that all things have a natural Appetite to rejoyn with that part of it self from which it hath violently been divided. This was demonstrated by the English surprisal of the City of <hi>Cork,</hi> and reintegrating themselves into their own Nation. Sir <hi>R.S.</hi> Knight, <hi>&amp;c.</hi> was Governour there, who little dream'd of losing his Command, and yet found he had lost it when he wak'd: one may truly say he was
+<pb n="69" facs="tcp:204437:37"/> taken napping: But I must acknow<g ref="char:EOLhyphen"/>ledge, to extenuate his misfortune, that he was divested of his Govern<g ref="char:EOLhyphen"/>ment in the dark, and by conse<g ref="char:EOLhyphen"/>quence could not see to prevent it. Sure this <hi>Major General</hi> lost his way into that Office, and was as much surprized at his having got that Employment, as we were to see him in it. His Ignorance was so great, it past for his Religion; for never any that saw him draw up the Army, but concluded he re<g ref="char:EOLhyphen"/>lied on Providence for the Victory, he made so little use of the means for the obtaining of it. He has now done that too, which he ne<g ref="char:EOLhyphen"/>ver did to his Regiment, I mean Exercised; and the word of Com<g ref="char:EOLhyphen"/>mand is, <hi>As you were;</hi> that is, re<g ref="char:EOLhyphen"/>duced to his Primitive Existence, which affords him the Stoicks Mot<g ref="char:EOLhyphen"/>to, <hi>Omnia mea mecum Porto.</hi> This makes me that I believe he will think these last Eight Years to be a Dream, and that he was never
+<pb n="70" facs="tcp:204437:38"/> really wak'd out of it, but when these rude Fellows of <hi>Cork</hi> pre<g ref="char:EOLhyphen"/>sum'd to do it.</p>
+            <p>There was besides in <hi>Cork,</hi> the Right Reverend Father the—: And tho' he were immediately com<g ref="char:EOLhyphen"/>manded to leave the Town, yet, in spight of the Officers Noses, he did his <hi>BUSINESS</hi> first, nay carried it away with him too. This is a Man of so Unfortunate a Behaviour, that he left an ill Odour behind him, both amongst his Friends and Ene<g ref="char:EOLhyphen"/>mies: yet thereby he rendred one Branch of the Covenant unperfor<g ref="char:EOLhyphen"/>mable, as to his particular; for though he were a Limb of the Hierarchy, yet it was impossible to take him <hi>CLEAN</hi> away.</p>
+            <p>The General being assured of the Declaration of <hi>Cork,</hi> to im<g ref="char:EOLhyphen"/>prove that Success, sent away Col. <hi>P</hi>— for <hi>Munster,</hi> with Five hun<g ref="char:EOLhyphen"/>dred Foot in a Fleet, that took another whilst the first was weigh<g ref="char:EOLhyphen"/>ing Anchor; but as these Forces
+<pb n="71" facs="tcp:204437:38"/> were Sailing by <hi>Dungarvan,</hi> News was brought them, that <hi>Yog<g ref="char:EOLhyphen"/>hal</hi> had declared too, which made them Land there. In a short time, as one Shoulder of Mutton draws down another, so one Town did the like unto another, whereby in less than a Fortnight, the Parlia<g ref="char:EOLhyphen"/>ment recovered their former Inte<g ref="char:EOLhyphen"/>rest in that <hi>Province,</hi> and with as little Blood, as they had lost it.</p>
+            <p>By this O— and <hi>Owen Roe</hi> O <hi>Neale</hi> had shook hands, the Gene<g ref="char:EOLhyphen"/>ral hoping they would think them<g ref="char:EOLhyphen"/>selves strong enough to be beaten, (for he desired no higher certainty of the Victory than to come to the Battle) march'd over the <hi>Barro,</hi> upon a Bridge which floated, but he soon found the Enemy did so too, and that tho' they wanted valour it self, yet they had the best part of it dis<g ref="char:EOLhyphen"/>cretion, or like Unfortunate Game<g ref="char:EOLhyphen"/>sters, they would stake away their <hi>Rest,</hi> and never <hi>Play</hi> for it.</p>
+            <pb n="72" facs="tcp:204437:39"/>
+            <p>But <hi>J</hi>— who no man can say hath been Unactive, tho' it were only for the often changing of his <hi>Party,</hi> with near Three thousand Horse and Foot, went to encoun<g ref="char:EOLhyphen"/>ter a small Party of ours, being but a handful, coming from <hi>Dublin,</hi> he took them tired Cap-a-pe, yet they gave him so rude a Salute, for a Gentleman that came so far to meet them; that he took their usage so much to heart, as he Vowed he would never be guilty of the like Civility agen: In a word, he did nothing considerable, but that he did nothing that was so, neither can I think any thing in his defence, for his Retreat, but that he is dear to his Mistress, and consequently be<g ref="char:EOLhyphen"/>lieves she will value him the more, for taking such care to preserve what she loved.</p>
+            <p>Our Army being over the <hi>Barro,</hi> and the Enemies not so much as at<g ref="char:EOLhyphen"/>tempting to send them back, those of <hi>Inestege</hi> believing it was out of
+<pb n="73" facs="tcp:204437:39"/> Complement; to imitate their Su<g ref="char:EOLhyphen"/>periours, quitted to us that Quarter, and the Magistrate of the Town of <hi>Carrick,</hi> loth that any should tran<g ref="char:EOLhyphen"/>scend him in Civility, received Col. <hi>R</hi>— into his Corporation; nay, though the Colonel had been so unkind as to give him no Ad<g ref="char:EOLhyphen"/>vertisement of his Visit, till he was within the Walls: Col. <hi>R</hi>— who is so just as to take the intention for the Act, and who was convinced, that had they known of his coming, they would have been better provi<g ref="char:EOLhyphen"/>ded for him, told the Inhabitants, <hi>It was better as it was.</hi>
+            </p>
+            <p>The General by the benefit of this place, Fords over the River of <hi>Shoore,</hi> and advanceth towards <hi>Wa<g ref="char:EOLhyphen"/>terford,</hi> but the Foe not daring to relieve it by force, endeavour it by Diversion, and at Noon-day stormed <hi>Carrick,</hi> but the Gallant English<g ref="char:EOLhyphen"/>man, that had the Courage to take it, had also the Valour to defend it, and having increased the Romish
+<pb n="74" facs="tcp:204437:40"/> Martyrs by a Recruit of Three or Four hundred, the rest very wisely concluded there would be then no room for any more of them in the Holy <hi>Muster-Roll,</hi> and so adjourned their Martyrdom till a convenienter Opportunity; all the Honour they got by the Attempt, was that they durst make it.</p>
+            <p>But though we had thus happily overcome hitherto all Enemies we had encountred, yet one was soon sent us that plainly worsted us, which was the Extremity of the Weather, that permitted not our Ships (where<g ref="char:EOLhyphen"/>in was our Bread and Artillery) to continue any longer in the Road, nor us in the Field; So that the Second of this Month we drew off from near <hi>Waterford</hi> (having first taken and garrisoned the Fort of <hi>Passage</hi> in the way to Harbour) but in Weather so sad, that our march<g ref="char:EOLhyphen"/>ing away in it could not fill the Town with more Joy. The Fourth, the Army did march by <hi>Dungar<g ref="char:EOLhyphen"/>van,</hi>
+               <pb n="75" facs="tcp:204437:40"/> which the day before had turned Honest. There it was that Lieutenant-General <hi>Jo</hi>— fell Sick, and in Seven days died, a Loss which countervails almost all our Victories, and which merits as many Tears as the very Clouds have shed of late; he was a Person of whom I should give you a low Character, if I thought I could give you his. In brief, he was a Person to be known Negatively, which was the way, the best Pen chose to describe the best place.</p>
+            <p>The General having past the <hi>Black-water,</hi> made <hi>Yoghal</hi> his Head-Quarter, where he received Intelli<g ref="char:EOLhyphen"/>gence the Eleventh of this Instant, that Lieutenant-General <hi>F</hi>—, in<g ref="char:EOLhyphen"/>tending to make a <hi>Boe-peep</hi> War of it, had drawn out of <hi>Waterford</hi> Two thousand Horse and Foot, and was set down before the Fort of <hi>Passage;</hi> he therefore immediately Commanded away gallant Col. <hi>S</hi>— with about One hundred and eighty
+<pb n="76" facs="tcp:204437:41"/> Horse, and as many Foot and Dra<g ref="char:EOLhyphen"/>goons; he ordered his Business so well, that he routed the <hi>Teigs,</hi> kill'd and took Six hundred, with<g ref="char:EOLhyphen"/>out the loss of one Man on our side: Heaven knowing that we wanted Men, as much as Success, did therefore give us the last, and preserved the first. The Prisoners consisted of <hi>Irish Vulsters,</hi> and <hi>Eng<g ref="char:EOLhyphen"/>lish-Irish Vulsters,</hi> for so I make bold to term the Fuzees, and if I be not mistaken, they will make bold to deserve that Name. There, too, was taken <hi>Wo</hi>—, one who commanded <hi>Duncannon,</hi> and who there pray'd God to keep him from the General's Mercy; I believe his Pray'r will be granted, for he shall receive his Justice, for by the Rules of Gradation he must now serve the Gallows, they admit but of three Stories, nor can his changes admit of more; his first Masters (since he left the English Service) were the <hi>Jockies,</hi> his second the
+<pb n="77" facs="tcp:204437:41"/>
+               <hi>Teigs;</hi> now, if any can find a Su<g ref="char:EOLhyphen"/>perlative, to that Positive ond Com<g ref="char:EOLhyphen"/>parative, but the Gibbet, I wish that may not prove. Mr. <hi>Wo</hi>—'s Fate.</p>
+            <p>These <hi>Vulsters</hi> now taken are as near <hi>Jockies</hi> in condition, as in Country, a People too, that hate their own Country, as much as the Original <hi>Covenanters</hi> do theirs, and with as much cause: They are both like Fountains, always running from whence they Spring; me-thinks 'twere not amiss those Barbarians should be sent after their General <hi>O. R</hi>— who died about a Month since; and yet upon better thoughts that would prove no Punishment, for it would but confine them eter<g ref="char:EOLhyphen"/>nally from returning home; 'twere better make an <hi>Irish-Tweed,</hi> or a <hi>Pict<g ref="char:EOLhyphen"/>wall,</hi> and keep them on the North side of it.</p>
+            <p>The General having ordered these Savages to be convoyed to <hi>Cork,</hi> went thither himself the Fif<g ref="char:EOLhyphen"/>teenth;
+<pb n="78" facs="tcp:204437:42"/> and whereas other Corpo<g ref="char:EOLhyphen"/>rations make their <hi>Mouth</hi> tell their <hi>Joy,</hi> this made their <hi>Looks</hi> do it, in which I believe he saw their <hi>Hearts;</hi> I cannot for the credit of the Place, but let the World know, there was too a Speech made by an old Inhabitant of the City; I must con<g ref="char:EOLhyphen"/>fess I cannot do him the right to re<g ref="char:EOLhyphen"/>late his words, but I must do him this right, that I believe they pleas'd the General well, for they made him laugh heartily.</p>
+            <p>The Twentieth, the beforemen<g ref="char:EOLhyphen"/>tioned <hi>Vulsters</hi> came to Town, a <hi>Crew</hi> of such things as admits not of any Comparison, but amongst the residue of their Country-men; what the dull <hi>P</hi>— (who hath not Wit enough to be a Secretary) cast upon the Army, might have been seen in this Epitomy of the Enemies, I mean <hi>naked Adamites</hi> for want of Cloathing, <hi>Cowardly Quakers,</hi> &amp;c. But yet 'tis strange they are such do<g ref="char:EOLhyphen"/>cile Creatures, that upon only a bare
+<pb n="79" facs="tcp:204437:42"/> Motion of the Marshal General, they had all like to have gone to Church; some merry Fellows were about to move the General, that the Clergy of this Province who are now Reform'd (I mean not in their Lives, but Livings) should have this new Congregation for their Parishioners; and truly 'twere not amiss, for it's thought they are as like to convert them as any o<g ref="char:EOLhyphen"/>thers: <hi>Oh,</hi> would that <hi>Clergy</hi> but keep as far from Sin, as they use to do from their <hi>Texts,</hi> or as they are like to do from their <hi>Tythes.</hi>
+            </p>
+            <p>Some transcendent Losses we have had by the Death of some of our bravest Officers cut off by the Di<g ref="char:EOLhyphen"/>stemper of the Country: but to sweeten this Cup, we understand for certain, that the Lord President of <hi>Connaught</hi> hath taken <hi>Colerane</hi> by Storm, and hath so settled the Irish and <hi>Scotch</hi> Garrison in it, that they are never like to march out of it a<g ref="char:EOLhyphen"/>gain. We hear further he hath a<g ref="char:EOLhyphen"/>greed
+<pb n="80" facs="tcp:204437:43"/> for the Surrender of <hi>Karick-vergus,</hi> if it be not relieved in six Weeks time; and though some be<g ref="char:EOLhyphen"/>lieve the Garrison have taken so long a time, in hope of Relief from their Country, yet I believe 'tis only to keep so long out of it.</p>
+            <p>Sir <hi>H. W</hi>— too, the Nineteenth of this Month, Landed with a Re<g ref="char:EOLhyphen"/>giment of Foot clad in a Livery, which I believe their Swords will wear next Spring: There are be<g ref="char:EOLhyphen"/>sides several other Ships come from the <hi>West,</hi> from <hi>Milford,</hi> from <hi>Bristol,</hi> and from <hi>London,</hi> with <hi>Provisions, Money, Men, Artillery,</hi> &amp;c.</p>
+            <q>
+               <l>Thus <hi>Seas</hi> and <hi>Winds</hi> and <hi>Men,</hi> do all make <hi>Leagues,</hi>
+               </l>
+               <l>To act the <hi>Ruine</hi> of the filthy <hi>Teagues.</hi>
+               </l>
+            </q>
+            <closer>
+               <dateline>
+                  <date>Ended the 21th of <hi>Decemb.</hi> 1649.</date> Printed at <hi>Corke.</hi>
+               </dateline>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb n="81" facs="tcp:204437:43"/>
+            <head>A LAND VOYAGE IN <hi>IRELAND.</hi>
+            </head>
+            <l>AFter a <hi>Breakfast</hi> the last <hi>Sundays Eve,</hi>
+            </l>
+            <l>By the Sun's Rise, the <hi>Blarney</hi> we did leave;</l>
+            <l>Who at his getting up, so smil'd and laugh'd,</l>
+            <l>As if he'd drink the Clouds for's Mornings Draught;</l>
+            <l>But yet, alas, we had not gone a League,</l>
+            <l>When the false <hi>Weather</hi> turn'd di<g ref="char:EOLhyphen"/>rectly <hi>Teige;</hi>
+            </l>
+            <pb n="82" facs="tcp:204437:44"/>
+            <l>And the <hi>Wind,</hi> too, unkindly turned <hi>South,</hi>
+            </l>
+            <l>And blew i'th' <hi>Teeth</hi> of those had some i'th' <hi>Mouth.</hi>
+            </l>
+            <l>Of those had none; so that <hi>Betty</hi> th' unfair</l>
+            <l>Spite of all Wants had suffer'd, if then there.</l>
+            <l>The Rain power'd down so fast, 'twas too well known,</l>
+            <l>The <hi>Clouds</hi> were then, not troubled with the <hi>Stone.</hi>
+            </l>
+            <l>This did so <hi>greatly</hi> raise a <hi>little</hi> Brook,</l>
+            <l>That we did fear our Way we had mistook;</l>
+            <l>For 'twas so deep, that a Ship might have then</l>
+            <l>Floated, tho' laden with <hi>Commitee-Men.</hi>
+            </l>
+            <l>Which Danger when we found, we did begin</l>
+            <l>To wish each Hand and Foot had been a <hi>Finn.</hi>
+            </l>
+            <l>At length, by <hi>Land</hi> and <hi>Water,</hi> we got o're,</l>
+            <l>And had no sooner reach'd the <hi>Pagan</hi> shore,</l>
+            <pb n="83" facs="tcp:204437:44"/>
+            <l>But a bold <hi>Teige,</hi> e're we could look about,</l>
+            <l>Swore he would wet our <hi>Inside,</hi> as our <hi>Out.</hi>
+            </l>
+            <l>With that he brought a <hi>Flagon,</hi> but so greasie,</l>
+            <l>That had my <hi>Boots</hi> been half so much, with ease I</l>
+            <l>The Water had kept out; which we did fear</l>
+            <l>Much less, then to let <hi>in</hi> his smaller <hi>Beer:</hi>
+            </l>
+            <l>
+               <hi>Beer,</hi> of which many <hi>ill</hi> things might be se'd,</l>
+            <l>Were 't not unfit to speak <hi>ill of the</hi> DEAD.</l>
+            <l>Yet thus much of it I dare boldly say,</l>
+            <l>Tho' weak, it quickly drove us all away.</l>
+            <l>But <hi>That,</hi> you'l say, was not much for it's fame,</l>
+            <l>Since that the Water, had near done the same.</l>
+            <l>Having our Potion drunk, we held it fit</l>
+            <l>To <hi>Pay,</hi> though Drinking we had <hi>Paid</hi> for it:</l>
+            <pb n="84" facs="tcp:204437:45"/>
+            <l>Perhaps the Entertainer thought the same:</l>
+            <l>For, when but <hi>Money</hi> only we did name,</l>
+            <l>He took't so ill, that clearly I do think,</l>
+            <l>Nothing could be worse taken, but his <hi>Drink.</hi>
+            </l>
+            <l>Our Host, at length, a little satis<g ref="char:EOLhyphen"/>fy'd,</l>
+            <l>Yet more than we, our Beasts we did bestride,</l>
+            <l>And switch and spur, a foot pace rid away,</l>
+            <l>Unto the place where Captain <hi>Rud<g ref="char:EOLhyphen"/>dock</hi> lay:</l>
+            <l>But <hi>wet</hi> so Cap-a-pee, that where we stood,</l>
+            <l>We almost there did raise a second <hi>Flood,</hi>
+            </l>
+            <l>Which made the half-drown'd Garri<g ref="char:EOLhyphen"/>son desire</l>
+            <l>That we this <hi>marching Deluge</hi> wou'd retire;</l>
+            <l>Nay some of them stuck not to say aloud,</l>
+            <l>We were not <hi>Men,</hi> but a <hi>dissolving Cloud.</hi>
+            </l>
+            <pb n="85" facs="tcp:204437:45"/>
+            <l>Such were our droppings, that if they had bin</l>
+            <l>
+               <hi>Tears</hi> of <hi>Repentance</hi> we had drown'd our <hi>Sin.</hi>
+            </l>
+            <l>Our half-becalmed Steeds we then did lash-on,</l>
+            <l>Till at the length we came to <hi>Balli<g ref="char:EOLhyphen"/>glashon;</hi>
+            </l>
+            <l>But some, as I thought, went with an ill will on,</l>
+            <l>Tho' that the Quarters were of Cap<g ref="char:EOLhyphen"/>tain <hi>Dillon.</hi>
+            </l>
+            <l>But there my Wat'ry Friends grew quickly merry,</l>
+            <l>Finding the Foord there turn'd into a <hi>Ferry;</hi>
+            </l>
+            <l>Hoping that we no further could go on;</l>
+            <l>But ended there our <hi>Navigation.</hi>
+            </l>
+            <l>I scorn'd so poor a thought, and therefore got</l>
+            <l>A <hi>reeling Charon,</hi> to a <hi>reeling Cott.</hi>
+            </l>
+            <l>It was a Miracle we were not sunk,</l>
+            <l>Since that the <hi>Boat,</hi> and Boatman both were drunk.</l>
+            <pb n="86" facs="tcp:204437:46"/>
+            <l>Had, but the first as full of Liquor bin,</l>
+            <l>As the last was, nought could have made it swim.</l>
+            <l>That Axiom we did then Experiment,</l>
+            <l>That nothing's weighty in its Element;</l>
+            <l>Else we had there miscarried without doubt,</l>
+            <l>By <hi>Charon</hi>'s wet within, and ours without.</l>
+            <l>But of <hi>George Dillon</hi> three Steeds I did borrow,</l>
+            <l>Which I made bold, the Water to swim thorow.</l>
+            <l>Our Train we left there, and those three that went on,</l>
+            <l>Were I, my Servant <hi>Gibbs,</hi> and <hi>Maurice Fenton.</hi>
+            </l>
+            <l>So lean those Gennets were, that I their Ribs</l>
+            <l>Could see, as plainly, as I could see <hi>Gibbs:</hi>
+            </l>
+            <l>And to speak true, the best Beast that we were on,</l>
+            <l>Was both by Sire and Dam, a down<g ref="char:EOLhyphen"/>right Garron.</l>
+            <pb n="87" facs="tcp:204437:46"/>
+            <l>As for their mettle, you must think it rare,</l>
+            <l>When nought about them but their hair did stare.</l>
+            <l>Their outside, tho' twere harsh, yet sure they be</l>
+            <l>The <hi>civil'st</hi> Creatures I did ever see;</l>
+            <l>For, without lying, it might well be se'd,</l>
+            <l>To every thing they bow'd both <hi>knee</hi> and <hi>head,</hi>
+            </l>
+            <l>Chiefly my own, which made me strongly fear</l>
+            <l>I then did ride on an Idolater;</l>
+            <l>At least, if it be lawful so to say</l>
+            <l>Of one who unto <hi>Stones</hi> doth <hi>Kneel</hi> and <hi>Pray.</hi>
+            </l>
+            <l>And when he stumbled, you might then as soon</l>
+            <l>Have hindred Fate, as him, from falling down.</l>
+            <l>But yet so wanton, that between each <hi>Spit</hi>
+            </l>
+            <l>And <hi>Stride,</hi> he ever <hi>Incest</hi> would commit.</l>
+            <pb n="88" facs="tcp:204437:47"/>
+            <l>
+               <hi>Maurice</hi> his Steed oft put him into fright</l>
+            <l>Of justly losing the Name of <hi>white Knight.</hi>
+            </l>
+            <l>The Horse too that my Man was mounted on,</l>
+            <l>Was by his Master called <hi>Choridon.</hi>
+            </l>
+            <l>Which gallant Name did cost the poor Jade dear,</l>
+            <l>It made him both <hi>Gibbs</hi> and the Cloak-bag bear;</l>
+            <l>Which forc'd the proud <hi>Getulian</hi> so to puff,</l>
+            <l>That we at first did think he took't in snuff.</l>
+            <l>And therefore, for to right him I was minded,</l>
+            <l>Which doing, I soon found him <hi>broken-winded.</hi>
+            </l>
+            <l>And that he shew'd, too, in so high a form,</l>
+            <l>I wondred crossing <hi>Styx,</hi> he rais'd no Storm.</l>
+            <l>This real truth, as soon as I did find</l>
+            <l>We voted <hi>Gibbs</hi> still for to ride be<g ref="char:EOLhyphen"/>hind.</l>
+            <pb n="89" facs="tcp:204437:47"/>
+            <l>Which tho we had not, here 'tis to be noted,</l>
+            <l>The <hi>Beast</hi> himself had done, what we had voted:</l>
+            <l>So that when mettle in our Steeds did fail,</l>
+            <l>That want was helpt by his obliging <hi>Gale.</hi>
+            </l>
+            <l>But now I end, lest some might truly say,</l>
+            <l>The Story is as <hi>tedious</hi> as the <hi>Way.</hi>
+            </l>
+            <l>At length, with hazard both of <hi>Life</hi> and <hi>Lim,</hi>
+            </l>
+            <l>By Candle-light <hi>Macroome</hi> we en<g ref="char:EOLhyphen"/>tred in;</l>
+            <l>So dirty, that even as much <hi>Rain</hi> agen,</l>
+            <l>Could with much difficulty make us <hi>clean.</hi>
+            </l>
+            <l>Our <hi>Horses</hi> too, as those that saw them say,</l>
+            <l>Appear'd like moving <hi>Statues</hi> made of <hi>Clay;</hi>
+            </l>
+            <l>And tho' alive, did seem the self-same <hi>Earth,</hi>
+            </l>
+            <l>From whence at first they did derive their <hi>Birth.</hi>
+            </l>
+            <pb n="90" facs="tcp:204437:48"/>
+            <l>We were no sooner lighted, but we there</l>
+            <l>Did offer up, many a <hi>Curse,</hi> and <hi>Pray'r;</hi>
+            </l>
+            <l>The <hi>first,</hi> a greater sure we could not give,</l>
+            <l>Was that our Horses as they were might live;</l>
+            <l>And the <hi>last</hi> was, They might be rid by those</l>
+            <l>Who were our <hi>Private,</hi> and the <hi>Publick Foes.</hi>
+            </l>
+         </div>
+         <div type="poem">
+            <pb n="91" facs="tcp:204437:48"/>
+            <head>A POEM To His Sacred Majesty King <hi>William.</hi>
+            </head>
+            <l>ALL things, as at the first, in <hi>Chaos</hi> lay</l>
+            <l>Till <hi>You</hi> appear'd, and did the Scepter sway;</l>
+            <l>And as that <hi>Chaos</hi> vanish'd at a Word,</l>
+            <l>So ours did by <hi>Your Conduct</hi> and <hi>Your Sword:</hi>
+            </l>
+            <l>
+               <hi>Your Sword</hi> which like <hi>Achilles</hi> Launce has found</l>
+            <l>The Power to <hi>Cure,</hi> as quickly as to <hi>Wound.</hi>
+            </l>
+            <l>To <hi>You</hi> a double benefit we owe,</l>
+            <l>
+               <hi>Y' have</hi> tam'd our Foes, and our own Mad<g ref="char:EOLhyphen"/>ness too.</l>
+            <l>Like to <hi>Bethesda</hi>'s-<hi>Pool</hi> this Nations Weal,</l>
+            <l>Till it was troubled, had not Pow'r to <hi>Heal.</hi>
+            </l>
+            <pb n="92" facs="tcp:204437:49"/>
+            <l>By such great Actings, <hi>You</hi> so chang'd th' extream,</l>
+            <l>That <hi>Istael</hi>-like, we are as those who Dream:</l>
+            <l>Our past, and now condition, does express,</l>
+            <l>What English-men could bear, or should Possess.</l>
+            <l>High Blessings from <hi>Your</hi> Pow'r our Land enjoys,</l>
+            <l>Yet like the <hi>Sun, You</hi> cherish without Noise.</l>
+            <l>Some Mischiefs did with more Disturbance fall,</l>
+            <l>Than <hi>You</hi> have made in <hi>Curing</hi> of them all.</l>
+            <l>As lingring <hi>Chymists</hi> pant 'twixt fear and hope,</l>
+            <l>While their last Wealth exhales in <hi>fire</hi> and <hi>smoke.</hi>
+            </l>
+            <l>Watch when their <hi>Phenix,</hi> to their longing eyes,</l>
+            <l>With <hi>Golden-Wings</hi> will from the <hi>Ashes</hi> rise:</l>
+            <l>So midst the <hi>ruin</hi> both of <hi>Church</hi> and <hi>State,</hi>
+            </l>
+            <l>Almost despairing, did three <hi>Nations</hi> wait,</l>
+            <l>For <hi>You,</hi> our grand <hi>Restorer,</hi> who alone</l>
+            <l>Have <hi>rais'd</hi> our fortune, <hi>rising</hi> to the <hi>Throne:</hi>
+            </l>
+            <l>Enrich'd us with more real treasures gain</l>
+            <l>Than greedy <hi>Chymists</hi> labour for in vain;</l>
+            <l>They in thick mists of <hi>smoak</hi> are still mislead,</l>
+            <l>Our <hi>Gold</hi>'s <hi>exalted, fix'd</hi> upon <hi>Your Head.</hi>
+            </l>
+            <pb n="93" facs="tcp:204437:49"/>
+            <l>Whilst this oppressed <hi>Country</hi> did think fit,</l>
+            <l>Ʋnder a <hi>load</hi> of Sufferings to sit,</l>
+            <l>With Patience: <hi>You</hi> at <hi>distance,</hi> did but mourn</l>
+            <l>For wrongs, which <hi>You</hi> to vindicate were born.</l>
+            <l>But when those wrongs in such vast show'rs did fall</l>
+            <l>That this griev'd Country to <hi>Your Sword</hi> did call;</l>
+            <l>Th' Oppressor's soon found, they could not withstand</l>
+            <l>Vengeance when <hi>ripe,</hi> and paid by such a hand.</l>
+            <l>As we behold, at the first birth of day,</l>
+            <l>A beauteous glimpse, while yet the infant Ray</l>
+            <l>Of th' rising Sun but just appears in sight,</l>
+            <l>Then, by degrees, a fairer stock of Light,</l>
+            <l>With burnish'd beams adorns some lofty hills.</l>
+            <l>And after, the whole Scene with Glory fills.</l>
+            <l>So You approach'd, first, with Your Acts of Grace,</l>
+            <l>Which soon dark Clouds of guilt and sorrows chase;</l>
+            <l>Then some bright rays of favour did let fall,</l>
+            <l>On choicest <hi>Worthies;</hi> now diffusing all.</l>
+            <l>
+               <hi>Your</hi> Splendour doth appear to every Eye,</l>
+            <l>In Noon-tide <hi>lustre,</hi> and full <hi>Majesty:</hi>
+            </l>
+            <pb n="94" facs="tcp:204437:50"/>
+            <l>Your Beams both light and cherish, they impart</l>
+            <l>Joy to the sight, and comfort to the heart.</l>
+            <l>Nay such <hi>Your</hi> Influence is, without con<g ref="char:EOLhyphen"/>troul,</l>
+            <l>It sheds Religion's Blessings on the Soul;</l>
+            <l>Whereby <hi>Your Soveraignty</hi> is so encreast,</l>
+            <l>
+               <hi>You</hi> have a <hi>Throne</hi> in every <hi>Honest</hi> breast,</l>
+            <l>Whilst Pow'r and Mercy, have to <hi>You</hi> as<g ref="char:EOLhyphen"/>sign'd</l>
+            <l>Dominion both on <hi>Body,</hi> and on <hi>Mind.</hi>
+            </l>
+            <l>And tho' some Enemies against <hi>You</hi> brings</l>
+            <l>
+               <hi>Your</hi> Lineage not so high, as former Kings:</l>
+            <l>Yet <hi>Your</hi> own Glories do so <hi>brightly</hi> shine</l>
+            <l>
+               <hi>You</hi> need not the old lustre of <hi>Your Line:</hi>
+            </l>
+            <l>For more that Honour's valued by the <hi>Good,</hi>
+            </l>
+            <l>Which is deriv'd from <hi>Merit,</hi> than from <hi>Blood.</hi>
+            </l>
+            <l>And 'tis a more transcendent <hi>Vertue</hi> far,</l>
+            <l>A <hi>Crown</hi> to <hi>Merit,</hi> than a <hi>Crown</hi> to <hi>wear.</hi>
+            </l>
+            <l>And you the Royal Throne so well adorn,</l>
+            <l>The Wise soon priz'd, what only Fools did scorn:</l>
+            <l>A Throne which even the <hi>Envious</hi> confess,</l>
+            <l>Our <hi>Safety</hi> urg'd Your <hi>Courage</hi> to possess.</l>
+            <l>One Crown, some judg'd too much, while yet misled,</l>
+            <l>Now three's too mean for <hi>Your</hi> Illustrious <hi>Head,</hi>
+            </l>
+            <pb n="95" facs="tcp:204437:50"/>
+            <l>Which, tho' <hi>Imperial,</hi> less to <hi>You</hi> appear,</l>
+            <l>In value, than the <hi>Olive Wreath</hi> You'l wear.</l>
+            <l>
+               <hi>Your</hi> warlike <hi>Sword</hi> cuts out our way to <hi>Peace,</hi>
+            </l>
+            <l>The <hi>Stubborn</hi> quell'd, the rest shall live at Ease,</l>
+            <l>And 'twill be just in all to own that we</l>
+            <l>From <hi>Your</hi> great <hi>Conquests</hi> gain our <hi>Li<g ref="char:EOLhyphen"/>bertie;</hi>
+            </l>
+            <l>An Emblem how <hi>God</hi> his <hi>Elect</hi> receives,</l>
+            <l>First he <hi>Subdues,</hi> then <hi>Liberty</hi> he gives.</l>
+            <l>Those sunk in bondage, <hi>You</hi> to freedom lift,</l>
+            <l>The Noblest giver, and the Noblest gift:</l>
+            <l>How were you born to give all <hi>Europe</hi> Ease,</l>
+            <l>And quickly, too, almost by Miracles:</l>
+            <l>At home our restless Spirits <hi>You</hi> have aw'd;</l>
+            <l>Now <hi>Your</hi> great Courage Summons <hi>You</hi> abroad,</l>
+            <l>
+               <hi>Ireland</hi> and <hi>Scotland,</hi> to <hi>Your</hi> Empire bow,</l>
+            <l>And by their Ʋnion, we shall stronger grow;</l>
+            <l>For none to break our quiet will be found</l>
+            <l>Now all our Arrow's in one Sheaf are bound:</l>
+            <l>Which has so fram'd this Empire to en<g ref="char:EOLhyphen"/>dure,</l>
+            <l>We need but have Wise Foes to be secure,</l>
+            <l>Secure so highly, as to be exempt</l>
+            <l>Not from their Conquest only, but Attempt.</l>
+            <pb n="96" facs="tcp:204437:51"/>
+            <l>Out fierce Divisions made <hi>Your</hi> Valour known,</l>
+            <l>But more <hi>Your</hi> Wisdom shines, which makes us one.</l>
+            <l>Nor could Success more for the Conquer'd do,</l>
+            <l>Than by <hi>Your</hi> bounty they are rais'd unto:</l>
+            <l>From an Aspiring foreign Tyrant freed,</l>
+            <l>The guiltless safe shall live, the <hi>Guilty bleed.</hi>
+            </l>
+            <l>Nay that <hi>fell Monster,</hi> who with so much Pains</l>
+            <l>Has strove to binde all <hi>Europe</hi> in <hi>his Chains,</hi>
+            </l>
+            <l>Begins to <hi>shrink</hi> and <hi>hide,</hi> when <hi>You</hi> appear,</l>
+            <l>And finds a stop put to his swift <hi>Cariere.</hi>
+            </l>
+            <l>His boasted <hi>Fleets</hi> which threatned late our <hi>shoar,</hi>
+            </l>
+            <l>Now <hi>Sculks,</hi> and bravely dares approach no no more.</l>
+            <l>On <hi>You</hi> oppressed Princes loudly call,</l>
+            <l>And joyntly make <hi>You</hi> their great General:</l>
+            <l>Ʋpon <hi>Your Conduct</hi> all their hopes rely,</l>
+            <l>
+               <hi>Your</hi> Sword's the Arbiter of Victory,</l>
+            <l>Guided by Heav'n, the haughty to pluck down,</l>
+            <l>And with firm Peace, restore to each his own.</l>
+            <l>For <hi>Your</hi> just thoughts do only take a Care,</l>
+            <l>To end, and to prevent a tedious War.</l>
+            <pb n="97" facs="tcp:204437:51"/>
+            <l>Therein the Noblest Conquest we shall find,</l>
+            <l>When <hi>You</hi> place bounds, unto <hi>Your</hi> vaster Mind:</l>
+            <l>And to <hi>Your</hi> sharpest Foes, it is made known,</l>
+            <l>
+               <hi>You</hi> have more ways to <hi>Conquer</hi> them than one:</l>
+            <l>
+               <hi>Swords</hi> in rough Fetters may Men's Bodies bind,</l>
+            <l>But <hi>Mercy</hi> only does subdue the Mind.</l>
+            <l>Thus <hi>You'l</hi> not only famous be in War,</l>
+            <l>But Peace shall spread <hi>Your</hi> Name, at least, as f<gap reason="illegible" resp="#murp" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r.</l>
+            <l>A Prince thus worthy, sure deserves to be</l>
+            <l>The Supreme of the Worlds best Monarchie;</l>
+            <l>And that our own is such where <hi>You</hi> bear sway,</l>
+            <l>I shall repeat, from what best Poets say.</l>
+            <l>Our little <hi>English Paradise,</hi> is stor'd</l>
+            <l>With all <hi>conspiring Elements</hi> afford</l>
+            <l>To make a <hi>Country</hi> happy; Here we have</l>
+            <l>All that our <hi>Health,</hi> or sober <hi>Pleasures</hi> crave;</l>
+            <l>And if we greater <hi>Riches</hi> do desire,</l>
+            <l>Than what more frugal <hi>Nature</hi> does re<g ref="char:EOLhyphen"/>quire,</l>
+            <l>Industrious <hi>Navigators</hi> search, abroad</l>
+            <l>And in our <hi>Ports</hi> the costliest Freights un<g ref="char:EOLhyphen"/>load,</l>
+            <l>
+               <hi>Gems</hi> of high fancied Value, richest <hi>Wines,</hi>
+            </l>
+            <l>Ripe <hi>Spices,</hi> and the <hi>Gold</hi> of <hi>India's</hi> Mines.</l>
+            <pb n="98" facs="tcp:204437:52"/>
+            <l>Silks from Luxurious <hi>Persia</hi> are sent,</l>
+            <l>And pleasant <hi>Fruits,</hi> from every continent.</l>
+            <l>Thus with the <hi>Waves,</hi> Plenty upon us flows,</l>
+            <l>And what the <hi>Soil</hi> denies, the <hi>Sea</hi> be<g ref="char:EOLhyphen"/>stows.</l>
+            <l>For Prudent <hi>Nature</hi> nothing here denies,</l>
+            <l>But what's superfluous; which our Trade supplies.</l>
+            <l>And what those <hi>Foreigners</hi> will not af<g ref="char:EOLhyphen"/>ford</l>
+            <l>In <hi>Traffick,</hi> we can Purchase by the <hi>Sword;</hi>
+            </l>
+            <l>So that whatever <hi>useful</hi> is, or <hi>rate,</hi>
+            </l>
+            <l>Nature presents us, or an easie War.</l>
+            <l>Our <hi>Air</hi> so temp'rate we no <hi>shady Groves</hi>
+            </l>
+            <l>Much need, in <hi>Summer;</hi> nor in Winter Stows:</l>
+            <l>For such a clement Heaven this Isle does bless</l>
+            <l>Ware seldom <hi>scorch'd;</hi> or feel the Frosts <hi>excess,</hi>
+            </l>
+            <l>Which makes it <hi>Love's</hi> best <hi>Climate,</hi> and affords.</l>
+            <l>Beauties, which are resistless as our Swords.</l>
+            <l>That <hi>Race</hi> of <hi>Horses,</hi> which our <hi>Land</hi> does <hi>breed,</hi>
+            </l>
+            <l>Are justly fam'd for <hi>strength,</hi> and shape, and speed,</l>
+            <l>On whom when once their <hi>Valiant Riders</hi> get,</l>
+            <l>No Foe can shun the Battel, or defeat.</l>
+            <pb n="99" facs="tcp:204437:52"/>
+            <l>Our <hi>Meadows</hi> are so <hi>fresh</hi> still to the Eye,</l>
+            <l>As if each <hi>Morn</hi> spread its new <hi>Tapi<g ref="char:EOLhyphen"/>stry:</hi>
+            </l>
+            <l>Whilst other Countries <hi>scorch'd</hi> with un<g ref="char:EOLhyphen"/>kind <hi>heat,</hi>
+            </l>
+            <l>When they a New one in their season get,</l>
+            <l>In a few days they then appear to be</l>
+            <l>
+               <hi>Cloath'd,</hi> but with <hi>England's</hi> old <hi>cast Li<g ref="char:EOLhyphen"/>very:</hi>
+            </l>
+            <l>For but <hi>compar'd,</hi> they <hi>faintly green</hi> ap<g ref="char:EOLhyphen"/>pear,</l>
+            <l>Like <hi>wither'd Mantles</hi> of a former year:</l>
+            <l>Ours being <hi>wash'd</hi> in gentle <hi>show'rs</hi> and <hi>brusht</hi>
+            </l>
+            <l>With <hi>fanning Gales,</hi> whilst theirs are soyl'd in <hi>Dust.</hi>
+            </l>
+            <l>Our <hi>Herds</hi> are large as the <hi>Armenian</hi> breed,</l>
+            <l>And numerous as the <hi>Flow'rs,</hi> whereon they feed;</l>
+            <l>Yet are our <hi>Hills</hi> most stor'd with the in<g ref="char:EOLhyphen"/>crease</l>
+            <l>Of our white fruitful <hi>Flocks,</hi> which num<g ref="char:EOLhyphen"/>berless</l>
+            <l>As large a Summer <hi>Garment</hi> do bestow</l>
+            <l>Ʋpon the <hi>Hills,</hi> as <hi>Winter</hi> does of <hi>Snow:</hi>
+            </l>
+            <l>Which shorn the Natives for their <hi>Pomp</hi> soon get</l>
+            <l>
+               <hi>Dyed</hi> in more <hi>colours,</hi> than the <hi>flowers</hi> they eat.</l>
+            <pb n="100" facs="tcp:204437:53"/>
+            <l>Then from those <hi>Hills,</hi> we such a prospect spy</l>
+            <l>Of Corn, Life's chief support, i'th' Valleys lye,</l>
+            <l>As if the Clouds dropt all their fatness there,</l>
+            <l>Or this Isle in its Golden-Age yet were:</l>
+            <l>Each fruitful Field's like those the sacred lays</l>
+            <l>Of God's own Poet did vouchsafe to Praise,</l>
+            <l>Which he with joyful Musick did adorn,</l>
+            <l>And made them seem to Sing and Laugh with Corn.</l>
+            <l>Nature, to us such lofty Trees hath given,</l>
+            <l>Their Proud tops farther seem from Earth than Heaven;</l>
+            <l>Whose sturdy <hi>Arms</hi> so vastly they do stretch,</l>
+            <l>As if the falling <hi>Meteors</hi> they would catch;</l>
+            <l>In <hi>bulk</hi> so great, that when a <hi>few</hi> are fell'd,</l>
+            <l>To their great <hi>Lord,</hi> a numerous <hi>Fleet</hi> they yield.</l>
+            <l>And tho, at <hi>Home,</hi> they cover little Land,</l>
+            <l>Yet, when once Launch'd, the <hi>Ocean they command:</hi>
+            </l>
+            <l>Make our Dominions <hi>large,</hi> impose a <hi>Law</hi>
+            </l>
+            <l>To all on <hi>Seas,</hi> and keep the <hi>World</hi> in awe:</l>
+            <l>Whilst <hi>Neptune,</hi> as his <hi>Tribute,</hi> every Day</l>
+            <l>Huge shoals of <hi>Fish,</hi> his currant <hi>Coyn</hi> does Pay.</l>
+            <pb n="101" facs="tcp:204437:53"/>
+            <l>Which when our <hi>Neighbours</hi> beg upon our <hi>Shore,</hi>
+            </l>
+            <l>Proclaims their <hi>Wants,</hi> our <hi>Charity,</hi> and <hi>Store.</hi>
+            </l>
+            <l>Our <hi>Rivers,</hi> too, such <hi>Trade</hi> and Plen<g ref="char:EOLhyphen"/>ty yields,</l>
+            <l>That they appear as fertile as our Fields.</l>
+            <l>Our Ancient <hi>Horts</hi> in <hi>Vineyards</hi> we de<g ref="char:EOLhyphen"/>cline,</l>
+            <l>
+               <hi>Apples</hi> and <hi>Pears</hi> presenting us with <hi>Wine.</hi>
+            </l>
+            <l>More of this <hi>Queen of Isles,</hi> I well might Sing,</l>
+            <l>And who should Rule it then, but our brave <hi>King?</hi>
+            </l>
+            <l>'Tis the World's <hi>choicest Gift,</hi> and being such,</l>
+            <l>As <hi>Wonder</hi> cannot celebrate too much,</l>
+            <l>And <hi>You</hi> a <hi>Wonder</hi> too, 'twas therefore fit</l>
+            <l>Mean <hi>Spirits</hi> should yield, and <hi>You</hi> should Govern it.</l>
+            <l>William <hi>the Brave,</hi> May then <hi>Your</hi> war<g ref="char:EOLhyphen"/>like hand,</l>
+            <l>Pluck down all <hi>Tyrants,</hi> and Preserve this Land,</l>
+            <l>From <hi>Gallick Treachery:</hi> May no black Cloud</l>
+            <l>Eclipse <hi>Your Virtues</hi> with a <hi>sullen</hi> Shrowd.</l>
+            <l>May you, as th' Sun in <hi>Joshua</hi>'s time, repeat</l>
+            <l>
+               <hi>Your</hi> lengthned <hi>Hours,</hi> stand long fix'd in <hi>Your Seat:</hi>
+            </l>
+            <pb n="102" facs="tcp:204437:54"/>
+            <l>And when <hi>You</hi> leave this for a <hi>higher Sphere,</hi>
+            </l>
+            <l>
+               <hi>Set</hi> here in <hi>Peace,</hi> and <hi>Rise</hi> in <hi>Glory there.</hi>
+            </l>
+            <div type="epigram">
+               <head>An Irish Epigram.</head>
+               <l>A Friend that in my Thoughts holds no small room,</l>
+               <l>Asking his silly Nose-suck'd Irish Groom, but you</l>
+               <l>If he had drest his Horse? must note</l>
+               <l>It was when Horses use to shed their Coat)</l>
+               <l>
+                  <hi>Nil Meister,</hi> he replies, <hi>Me take a care,</hi>
+               </l>
+               <l>
+                  <hi>For dat, lest</hi> off, <hi>Me Curry all de</hi> hair.</l>
+               <l>How, smiles the well-pleas'd Owner, This is fine;</l>
+               <l>
+                  <hi>Curry</hi> his <hi>Coat,</hi> or I shall <hi>Curry thine.</hi>
+               </l>
+            </div>
+            <div type="epigram">
+               <pb n="103" facs="tcp:204437:54"/>
+               <head>Epigram.</head>
+               <l>ONe wondring at an <hi>Irish Teig,</hi> who spake</l>
+               <l>Much <hi>Non-sence;</hi> and did every thing <hi>Mistake:</hi>
+               </l>
+               <l>And tho' he long had liv'd in th' English <hi>Court,</hi>
+               </l>
+               <l>Was for no <hi>Bus'ness</hi> fit, and scarce for <hi>Sport.</hi>
+               </l>
+               <l>The Wonder's not, says one, there's some such Tools,</l>
+               <l>But that there's half a Kingdom of such Fools.</l>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
